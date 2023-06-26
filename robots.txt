@@ -1,1 +1,1 @@
-Sitemap: https://conceptintegration.github.io/sitemap.xml
+Sitemap: https://github.com/conceptintegration/conceptintegration.github.io/sitemap.xml
