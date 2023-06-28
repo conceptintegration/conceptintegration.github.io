@@ -1,16 +1,37 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "court_rulings.html",
+    "href": "court_rulings.html",
+    "title": " Court rulings",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Sit sociosqu: habitasse erat habitasse, ac phasellus cubilia vestibulum dictum. lacinia turpis feugiat cubilia libero mollis nisl primis enim in id! pharetra feugiat orci odio molestie bibendum porttitor."
+  },
+  {
+    "objectID": "public_consultations.html",
+    "href": "public_consultations.html",
+    "title": " Public consultations",
+    "section": "",
+    "text": "Elit fermentum etiam – lacinia hendrerit: praesent phasellus ultricies tempor? sem aliquam aptent vestibulum sem proin egestas turpis auctor. nisl facilisi curabitur, magna egestas vitae convallis aliquam blandit tempus."
+  },
+  {
+    "objectID": "constitutions.html",
+    "href": "constitutions.html",
+    "title": " Constitutions",
+    "section": "",
+    "text": "Amet vitae nullam hendrerit mollis cras, feugiat erat. accumsan imperdiet arcu, tortor nullam dapibus inceptos ridiculus torquent curabitur cubilia. tristique suspendisse sociosqu enim, imperdiet magnis auctor ornare."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "conceptintegration.github.io",
+    "title": "Concept Integration Lab 📃 🤖",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "We use natural language processing (NLP) tools to analyze citizens’ inputs about their constitutions."
+  },
+  {
+    "objectID": "collaborators.html",
+    "href": "collaborators.html",
+    "title": "Collaborators",
+    "section": "",
+    "text": "Vivamus conubia vitae litora luctus dictum nostra ut tristique a accumsan tempus fermentum quisque tellus habitasse nullam mauris ligula porta eleifend purus per dictum torquent maecenas inceptos porttitor litora placerat eget vel primis litora placerat suspendisse eros egestas vivamus gravida id vestibulum blandit suscipit scelerisque molestie vehicula nunc ad sociosqu pulvinar tristique quis quam per turpis malesuada quisque sociosqu quis commodo porta quisque iaculis maecenas lectus justo sed ultrices nostra enim sed aliquet integer orci rhoncus cubilia sollicitudin habitasse fermentum sagittis consequat metus dictumst quisque velit risus egestas a pulvinar ut pulvinar sem nostra faucibus nascetur et hac nibh venenatis."
   }
 ]
