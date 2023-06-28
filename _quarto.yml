@@ -2,16 +2,29 @@ project:
   type: website
 
 website:
-  title: "conceptintegration.github.io"
+  title: "Concept Integration Lab"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: collaborators.qmd
+        text: "Collaborators"
+      - text: "Projects"
+        menu:
+          - text: "Constitutions"
+            icon: book
+            href: constitutions.qmd
+          - text: "Public consultations"
+            icon: megaphone
+            href: public_consultations.qmd
+          - text: "Court rulings"
+            icon: bank2
+            href: court_rulings.qmd
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: cosmo
     css: styles.css
     toc: true
 

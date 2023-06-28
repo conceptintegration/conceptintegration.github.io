@@ -1,0 +1,5 @@
+---
+title: "{{< bi bank2 >}} Court rulings"
+---
+
+Sit sociosqu: habitasse erat habitasse, ac phasellus cubilia vestibulum dictum. lacinia turpis feugiat cubilia libero mollis nisl primis enim in id! pharetra feugiat orci odio molestie bibendum porttitor.
