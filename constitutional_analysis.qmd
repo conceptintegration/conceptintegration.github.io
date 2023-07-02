@@ -6,7 +6,7 @@ Constitution drafters and researchers have long explored the origins and consequ
 
 Our constitutional project thus uses our new CCP ontology to conduct an expanded analysis of constitutions. The aim is to produce complete section-level topic coverage of national constitutions worldwide. This will identify topics in constitution sections that are not yet indexed by CCP and will identify even more topics in those sections already indexed by CCP.
 
-Our approach takes several steps to identify a comprehensive set of features in current constitutions. This will:
+Our approach takes several steps to identify a comprehensive set of topics in national constitutions worldwide. This will:
 
 * Use the new CCP ontology to automatically classify the topic of each section of all national constitutions currently in force around the world.
 * Apply new and revised topic assignments to all current constitutions.
