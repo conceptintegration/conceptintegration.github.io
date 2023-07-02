@@ -1,4 +1,6 @@
+---
 title: "Ontology Repository"
+---
 
 This page is both a placeholder and an invitation. We are creating a public repository for ontologies in comparative law to collect ontologies in the field and provide a foundation for concept integration. Hosted here on GitHub, the repository will include published ontologies from publishers and cataloguers, ontologies from individual authors of datasets, and relevant corpora. 
 
