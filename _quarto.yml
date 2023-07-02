@@ -7,8 +7,8 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: collaborators.qmd
-        text: "Collaborators"
+      - href: team.qmd
+        text: "Team"
       - href: research_design.qmd
         text: "Research Design"
       - text: "Projects"
