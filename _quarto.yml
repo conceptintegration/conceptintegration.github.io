@@ -19,8 +19,8 @@ website:
             href: constitutional_analysis.qmd
           - text: "Consultation analysis"
             href: consultation_analysis.qmd
-          - text: "Court analysis"
-            href: court_analysis.qmd
+          - text: "Court ruling analysis"
+            href: court_ruling_analysis.qmd
           - text: "Ontology repository"
             href: ontology_repository.qmd
       - href: collaboration.qmd
