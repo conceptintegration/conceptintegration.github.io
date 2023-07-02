@@ -1,4 +1,6 @@
+---
 title: "Ontology Enrichment"
+---
 
 A central focus of our prior work has been the collection and analysis of contemporary and historical constitutions, which we have organized as the Comparative Constitutions Project (CCP) (Elkins and Ginsburg 2021). Using the CCP ontology, we have identified a core set of 330 topics in each written constitution of independent countries from 1789 to the present. This spatial-temporal identification of constitutional elements has since facilitated at least 200 published analyses of the origins and consequences of these institutions. Yet, we do not see CCP as the authoritative ontology in this space. If anything, we see CCP as a preliminary reference set for the integration of other ontologies in comparative law.
 
