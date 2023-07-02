@@ -1,8 +1,8 @@
 ---
-title: "Court Analysis"
+title: "Court Ruling Analysis"
 ---
 
-Studies on judicial rulings focus largely on one country over time or on a finite set of topics in several countries. Such studies have been key to understanding the legal dynamics of that country or issue set, but they don't compare all of the issues people bring to courts across many countries. To date, it has been prohibitively complex to study court elaboration of the all constitutional topics in a large set of countries.
+Studies on court rulings focus largely on one country over time or on a finite set of topics in several countries. Such studies have been key to understanding the legal dynamics of that country or issue set, but they don't compare all of the issues people bring to courts across many countries. To date, it has been prohibitively complex to study court elaboration of the all constitutional topics in a large set of countries.
 
 Our court project has developed tools to link constitutional content to court rulings to assess court elaboration of the full suite of constitutional topics. We are using these to identify the constitutional topics raised in court rulings in over 100 countries. Our approach takes several steps to:
 
