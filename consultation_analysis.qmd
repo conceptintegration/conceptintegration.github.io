@@ -1,5 +1,5 @@
 ---
-title: "Public Consultations"
+title: "Consultation Analysis"
 ---
 
 Public consultation has become an indispensable part of constitutional design, yet the voluminous narrative data produced are notoriously difficult to analyze. Most recently, the consultation process in Chile produced more than 2.4 million suggestions for constitutional content and nearly 265,000 more comments explaining these. The question guiding such consultations—“Which constitutional topics are of most interest to citizens?”—is intractable without an applicable ontology and a method for analyzing vast volumes of text.
