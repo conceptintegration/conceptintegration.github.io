@@ -1,4 +1,6 @@
+---
 title: "Research Design"
+---
 
 We have developed a novel set of concept-processing tools that form the basis of our research design to enrich our CCP ontology and apply it to new research frontiers. Text comparison poses formidable challenges for human experts, as an exhaustive comparison of just two 1,000-topic texts requires one million operations. NLP tools can automate part of this task, calculating similarities between text at various levels—words, sentences, and documents.
 
