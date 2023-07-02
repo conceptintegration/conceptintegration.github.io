@@ -14,13 +14,10 @@ website:
       - text: "Projects"
         menu:
           - text: "Constitutions"
-            icon: book
             href: constitutions.qmd
           - text: "Public consultations"
-            icon: megaphone
             href: public_consultations.qmd
           - text: "Court rulings"
-            icon: bank2
             href: court_rulings.qmd
 
 format:
