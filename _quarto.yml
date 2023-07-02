@@ -9,6 +9,8 @@ website:
         text: Home
       - href: collaborators.qmd
         text: "Collaborators"
+      - href: research_design.qmd
+        text: "Research Design"
       - text: "Projects"
         menu:
           - text: "Constitutions"
