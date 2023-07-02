@@ -13,13 +13,19 @@ website:
         text: "Research Design"
       - text: "Projects"
         menu:
-          - text: "Constitutions"
-            href: constitutions.qmd
-          - text: "Public consultations"
-            href: public_consultations.qmd
-          - text: "Court rulings"
-            href: court_rulings.qmd
-
+          - text: "Ontology enrichment"
+            href: ontology_enrichment.qmd
+          - text: "Constitutional analysis"
+            href: constitutional_analysis.qmd
+          - text: "Consultation analysis"
+            href: consultation_analysis.qmd
+          - text: "Court analysis"
+            href: court_analysis.qmd
+          - text: "Ontology repository"
+            href: ontology_repository.qmd
+      - href: collaboration.qmd
+        text: "Collaboration"
+        
 format:
   html:
     theme:
