@@ -8,4 +8,4 @@ The project will hold periodic meetings of comparative law scholars and taxonomi
 
 These collaboreative meetings will allow participants to present datasets and accompanying ontologies, discuss best practices related to ontologies, build working relationships, and collaborate on conceptual integration. The meetings will also serve as a way to vet initial inputs into our planned [ontology repository](https://conceptintegration.github.io/ontology_repository.html).
 
-If you have data, ontologies, or corpora in comparative law that could be a good fit, please contact [Zachary Elkins](mailto:zelkins@austin.utexas.edu), [Roy Gardner](roybowesgardner@gmail.com), and [Ashley Moran](mailto:ashleymoran@utexas.edu). We look forward to talking with you and learning about your work!
+If you have data, ontologies, or corpora in comparative law that could be a good fit, please contact [Zachary Elkins](mailto:zelkins@austin.utexas.edu), [Roy Gardner](mailto:roybowesgardner@gmail.com), and [Ashley Moran](mailto:ashleymoran@utexas.edu). We look forward to talking with you and learning about your work!
