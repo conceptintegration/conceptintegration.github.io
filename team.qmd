@@ -2,7 +2,7 @@
 title: "Team"
 ---
 
-<img align="left" src="images/test.png" width="210" height="200">
+<img align="left" src="Cruz.png" width="210" height="200">
 
 **[Andrés Cruz](https://arcruz0.github.io/), Senior Research Analyst**
 
