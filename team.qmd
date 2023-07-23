@@ -12,7 +12,7 @@ title: "Team"
 **[Roy Gardner](gardner.qmd)**
 <br>Roy Gardner is a data scientist focused on natural language processing, machine learning, and data analysis. He is a researcher for the Comparative Constitutions Project and a PeaceTech researcher at the PeaceRep consortium led by the University of Edinburgh Law School. He has a BSc in Experimental Psychology and a PhD in Neuroscience. His post-doctoral work was on algorithms for automatic speech recognition and experimental studies of human speech perception.
 
-<br><img align="left" src="images/Moran.png" width="210" height="200">
+<br><br><img align="left" src="images/Moran.png" width="210" height="200">
 **[Ashley Moran](https://liberalarts.utexas.edu/government/faculty/am49396)**
 <br>Ashley Moran is a political scientist focused on comparative constitutional development, court elaboration of new constitutions, and divided societies. She is research director for the Comparative Constitutions Project and a lecturer in UT Austin’s Government Department. Previously, she worked on democratic, legal, and constitutional reform in the Caucasus, Central Asia, and Middle East for NDI and the OSCE. She has an MA in Comparative Law and Development Economics from the Fletcher School of Law and Diplomacy and a PhD in Government from UT-Austin. 
 
