@@ -10,7 +10,7 @@ title: "Team"
 
 <br><img align="left" src="images/Gardner.png" width="210" height="200">
 **[Roy Gardner](gardner.qmd)**
-<br>Roy Gardner is a data scientist focused on natural language processing, machine learning, and data analysis. He is a researcher for the Comparative Constitutions Project and a PeaceTech researcher at the PeaceRep consortium led by the University of Edinburgh Law School. He has a BSc in Experimental Psychology and a PhD in Neuroscience. His post-doctoral work was on algorithms for automatic speech recognition and experimental studies of human speech perception.
+<br>Roy Gardner is a data scientist focused on natural language processing, networks, and machine learning. He is a researcher for the Comparative Constitutions Project and a PeaceTech researcher at the PeaceRep consortium led by the University of Edinburgh Law School. He has a BSc in Experimental Psychology and a PhD in Neuroscience. His post-doctoral work was on algorithms for automatic speech recognition and experimental studies of human speech perception.
 
 <br><br><img align="left" src="images/Moran.png" width="210" height="200">
 **[Ashley Moran](https://liberalarts.utexas.edu/government/faculty/am49396)**
