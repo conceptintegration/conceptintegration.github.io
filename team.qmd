@@ -25,3 +25,7 @@ title: "Team"
 <br><br><img align="left" src="images/Martin.png" width="210" height="200">
 **[Matthew Martin](https://mattjamesmartin.github.io/)**
 <br>Matthew Martin is a PhD student in UT Austin’s Department of Government. He studies public law and comparative politics, focusing on public participation in constitution-making, authoritarian regimes, Latin American politics, indigenous constitutionalism, and immigration politics. He has worked with the Comparative Constitutions Project since 2021. Previously, he was a full-time legal assistant in family and humanitarian immigration law. He received a dual-degree BA in Legal Studies and Political Science from the University of Massachusetts at Amherst.
+
+<br><img align="left" src="images/Perez.png" width="210" height="200">
+**[Guillermo Pérez](https://liberalarts.utexas.edu/government/gradstudents/gp22823)**
+<br>Guillermo Perez is a Chilean lawyer and a PhD student in UT Austin’s Department of Government. During his career, he has worked as a researcher and lecturer in different think tanks, research centers, and universities in Chile. He has also been actively contributing to the Chilean constitutional reform process, advising members of the Constitutional Convention and the Constitutional Council, and participating in multiple public debates. His research interests are comparative constitutional law, constitutional design, and Latin American politics.
