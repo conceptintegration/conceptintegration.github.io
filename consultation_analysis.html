@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -45,7 +45,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -54,6 +60,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -68,9 +75,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Concept Integration Lab</span>
     </a>
@@ -82,52 +89,52 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./team.html" rel="" target="">
- <span class="menu-text">Team</span></a>
+    <a class="nav-link" href="./team.html"> 
+<span class="menu-text">Team</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research_design.html" rel="" target="">
- <span class="menu-text">Research Design</span></a>
+    <a class="nav-link" href="./research_design.html"> 
+<span class="menu-text">Research Design</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="button" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Projects</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
         <li>
-    <a class="dropdown-item" href="./ontology_enrichment.html" rel="" target="">
+    <a class="dropdown-item" href="./ontology_enrichment.html">
  <span class="dropdown-text">Ontology enrichment</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./constitutional_analysis.html" rel="" target="">
+    <a class="dropdown-item" href="./constitutional_analysis.html">
  <span class="dropdown-text">Constitutional analysis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./consultation_analysis.html" rel="" target="">
+    <a class="dropdown-item" href="./consultation_analysis.html">
  <span class="dropdown-text">Consultation analysis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./court_analysis.html" rel="" target="">
+    <a class="dropdown-item" href="./court_analysis.html">
  <span class="dropdown-text">Court analysis</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./ontology_repository.html" rel="" target="">
+    <a class="dropdown-item" href="./ontology_repository.html">
  <span class="dropdown-text">Ontology repository</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./collaboration.html" rel="" target="">
- <span class="menu-text">Collaboration</span></a>
+    <a class="nav-link" href="./collaboration.html"> 
+<span class="menu-text">Collaboration</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -140,7 +147,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#methods-paper" id="toc-methods-paper" class="nav-link active" data-scroll-target="#methods-paper">Methods Paper</a></li>
+  <li><a href="#publications" id="toc-publications" class="nav-link active" data-scroll-target="#publications">Publications</a></li>
+  <li><a href="#papers" id="toc-papers" class="nav-link" data-scroll-target="#papers">Papers</a></li>
   </ul>
 </nav>
     </div>
@@ -162,7 +170,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <p>Public consultation has become an indispensable part of constitutional design, yet the voluminous narrative data produced are notoriously difficult to analyze. Most recently, the consultation process in Chile produced more than 2.4 million suggestions for constitutional content and nearly 265,000 more comments explaining these. The question guiding such consultations—“Which constitutional topics are of most interest to citizens?”—is intractable without an applicable ontology and a method for analyzing vast volumes of text.</p>
 <p>Our consultation project has developed tools to link constitutional content to public consultation input to assess the prevalence, evolution, and uptake of constitutional ideas raised by citizens. We are currently analyzing the world’s most recent and ambitious consultation effort in Chile. Detailed, systematic analysis of such voluminous public consultation input has been prohibitively complex to date, but our new tools make it possible.</p>
@@ -173,9 +183,16 @@ ul.task-list li input[type="checkbox"] {
 <li>Compare the prevalence of topics raised in Chilean public consultations to topics entrenched in the world’s constitutions.</li>
 </ul>
 <p>This allows us to answer several research questions related to public consultations, namely: Which constitutional topics are raised most often in Chilean public consultations and drafting body deliberations? How do topics raised in Chile compare to those in constitutions globally? Do drafters leverage public input rhetorically or substantively in the drafting process? How does the design and timing of consultations shape constitutional text? How can we validate the accuracy of topic matching to consultation corpora?</p>
-<section id="methods-paper" class="level2">
-<h2 class="anchored" data-anchor-id="methods-paper">Methods Paper</h2>
-<p><strong>Abstract:</strong> Public consultation has become an indispensable part of constitutional design, yet the voluminous, narrative data produced are often impractical to analyze. There are also few, if any, standards for such analysis. Using a comprehensive reference ontology from the Comparative Constitutions Project (CCP), we develop a new methodology to identify constitutional topics of most concern to citizens and compare these to topics in constitutions globally. To develop our approach, we analyze data from Chile’s 2016 public consultations—an ambitious process that produced nearly 265,000 narrative responses and launched the constitutional reform process that remains underway today. We leverage advances in natural language processing, in particular sentence-level semantic similarity technology, to classify consultation responses with respect to constitutional topics. Our methodology has major potential for advocates, drafters, and researchers seeking to analyze public consultation data that too often goes unexamined. Replication data for this paper are <a href="https://github.com/conceptintegration/WhatKindOfConstitution/">here</a>.</p>
+<section id="publications" class="level2">
+<h2 class="anchored" data-anchor-id="publications">Publications</h2>
+<p><strong>Title:</strong> Measuring Constitutional Preferences: A New Method for Analyzing Public Consultation Data</p>
+<p><strong>Abstract:</strong> Public consultation has become an indispensable part of constitutional design, yet the voluminous, narrative data produced are often impractical to analyze. There are also few, if any, standards for such analysis. Using a comprehensive reference ontology from the Comparative Constitutions Project (CCP), we develop a new methodology to identify constitutional topics of most concern to citizens and compare these to topics in constitutions globally. We analyze data from Chile’s 2016 public consultations—an ambitious process that produced nearly 265,000 narrative responses and launched the constitutional reform process that remains underway today. We leverage advances in natural language processing, in particular sentence-level semantic similarity technology, to classify consultation responses with respect to constitutional topics. Our methodology has potential for advocates, drafters, and researchers seeking to analyze public consultation data that too often go unexamined. View the <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0295396">article</a> and <a href="https://doi.org/10.5281/zenodo.10206513">replication data</a>.</p>
+</section>
+<section id="papers" class="level2">
+<h2 class="anchored" data-anchor-id="papers">Papers</h2>
+<p><strong>Title:</strong> Did the Pendulum Swing and Who Controlled It? Tracing Constitutional Ideas across Three Phases of Consultation, Deliberation, and Constitution Drafting in Chile</p>
+<p><strong>Abstract:</strong> Constitution-making is arguably one of the most important moments for articulating a country’s social and political vision. And yet, there is little comparative, empirical research tracing the development of this vision across an entire constitution-making process. Three recent constitutional reform efforts in Chile offer an unparalleled opportunity to examine the impacts of varied approaches to public consultation and constitution drafting on the expression and uptake of constitutional ideas. Prior analysis of these consultations (Fierro et al.&nbsp;2017; Ureta et al.&nbsp;2021; Raveau et al.&nbsp;2022) and drafting processes (Escudero 2021; Piscopo and Siavelis 2021) has been notable but limited, due in part to the challenges of analyzing voluminous textual data produced by such legal processes. Natural language processing offers a systematic approach to analyzing the topics raised in such legal processes, allowing us to trace the uptake and evolution of constitutional ideas across Chile’s historic constituent process.</p>
+<p>Using a comprehensive set of constitutional topics and new concept processing tools, this paper compares topics raised in public consultations, drafting deliberations, and constitution drafts in Chile’s constituent process over the last decade. To do so, we compile qualitative public input, transcribe drafting body deliberations, and process constitution drafts from all three recent drafting processes in Chile: the process conducted by then-President Michelle Bachelet from 2016-17, the Constitutional Convention process from 2021-22, and the Expert Commission and Constitutional Council process conducted in 2023. We assess which topics were of most interest to Chileans in each phase, whether drafters leveraged public input rhetorically or substantively, and how the design of consultations and drafting bodies shaped the resulting constitutional texts. This informs our understanding of the Chilean process and gleans lessons for constitution making more broadly.</p>
 
 
 </section>
@@ -260,10 +277,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -273,8 +289,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -287,6 +312,125 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -330,6 +474,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -355,6 +500,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -415,6 +586,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
