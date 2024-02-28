@@ -1,5 +1,7 @@
 project:
   type: website
+  post-render:
+    - "cp -rnv assets/. _site/assets/"
 
 website:
   title: "Concept Integration Lab"
