@@ -14,7 +14,7 @@ This allows us to answer several research questions related to court rulings, in
 
 ## Papers
 
-**Title:** Which Constitutional Ideas are Most Litigated in Courts?
+**Title: Which Constitutional Ideas are Most Litigated in Courts?**
 
 **Abstract:** Courts are central to the enforcement and elaboration of constitutions. Nearly 80% of countries today explicitly grant one or more courts the power to interpret the constitution (Elkins and Ginsburg 2022), positioning courts to shape broad swaths of the political and social realm (Stone Sweet 2000; Hirschl 2004). Yet cross-national assessment of such court elaboration has been relatively narrow. Studies of court rulings typically focus on one country over time or on a finite set of topics in several countries. Such studies have been key to understanding the legal dynamics of that country or issue set, but they do not reveal all of the constitutional issues people bring to courts around the world. To date, it has been prohibitively complex to assess the litigation of all constitutional topics in a large set of countries.
 
