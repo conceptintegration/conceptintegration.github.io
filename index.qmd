@@ -10,4 +10,4 @@ Natural language processing (NLP) can accelerate a more systematic approach to t
 
 Our digital tools facilitate the systematic comparison, integration, and application of concepts across comparative law. We seek to use them to improve constitutional design by organizing and enriching the historical and cross-national information available to constitution drafters and analysts. But they are applicable across the constitutional domain and beyond.
 
-We deeply appreciate support for this project from the National Science Foundation's Accountable Institutions and Behavior program and Human Networks and Data Science program.
+This material is based upon work supported by the National Science Foundation under Grant Number 2315189. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation (NSF). We deeply appreciate NSF's Accountable Institutions and Behavior program and Human Networks and Data Science program for this support.
