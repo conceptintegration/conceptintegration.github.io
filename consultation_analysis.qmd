@@ -16,13 +16,13 @@ This allows us to answer several research questions related to public consultati
 
 ## Publications
 
-Measuring Constitutional Preferences: A New Method for Analyzing Public Consultation Data**
+**Measuring Constitutional Preferences: A New Method for Analyzing Public Consultation Data**
 
 Public consultation has become an indispensable part of constitutional design, yet the voluminous, narrative data produced are often impractical to analyze. There are also few, if any, standards for such analysis. Using a comprehensive reference ontology from the Comparative Constitutions Project (CCP), we develop a new methodology to identify constitutional topics of most concern to citizens and compare these to topics in constitutions globally. We analyze data from Chile’s 2016 public consultations—an ambitious process that produced nearly 265,000 narrative responses and launched the constitutional reform process that remains underway today. We leverage advances in natural language processing, in particular sentence-level semantic similarity technology, to classify consultation responses with respect to constitutional topics. Our methodology has potential for advocates, drafters, and researchers seeking to analyze public consultation data that too often go unexamined. View the [article](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0295396) and [replication data](https://doi.org/10.5281/zenodo.10206513).
 
 ## Papers
 
-Tracing the Expression and Uptake of Constitutional Ideas across Three Reform Efforts in Chile**
+**Tracing the Expression and Uptake of Constitutional Ideas across Three Reform Efforts in Chile**
 
 Constitution-making is arguably one of the most important moments for articulating a country's social and political vision. And yet, there is little comparative, empirical research tracing the development of this vision across an entire constitution-making process. Three recent constitutional reform efforts in Chile offer an unparalleled opportunity to examine the impacts of varied approaches to public consultation and constitution drafting on the expression and uptake of constitutional ideas. Prior analysis of these consultations (Fierro et al. 2017; Ureta et al. 2021; Raveau et al. 2022) and drafting processes (Escudero 2021; Piscopo and Siavelis 2021) has been notable but limited, due in part to the challenges of analyzing voluminous textual data produced by such legal processes. Natural language processing offers a systematic approach to analyzing the topics raised in such legal processes, allowing us to trace the uptake and evolution of constitutional ideas across Chile's historic constituent process.
 
