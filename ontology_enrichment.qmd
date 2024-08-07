@@ -23,3 +23,9 @@ Refinement of the CCP ontology is a requisite step for our follow-on projects. Y
 **Title: Aligning Social Science Ontologies via Multipartite Graphs and Text Embeddings**
 
 **Abstract:** We propose a methodology to align social science ontologies, which are often loosely connected yet not fully cross-compatible. In our framework, multiple ontologies are represented via one multipartite graph, where vertices are topics and edges measure the semantic similarity between topics from different ontologies. This abstraction allows us to make the problem of alignment tractable by generating graph-level statistics and visualizations. In an illustration, we align two ontologies for topics in constitutions and peace agreements. Our methodology allows us to identify where existing ontologies align or differ, as well as to assess how potential new topics might fit in them. Future steps include public-facing interactive tools and direct connections with in-ontology and out-of-ontology text corpora.
+
+## Documentation
+
+**Ontology Enrichment Workflow**
+
+This documentation describes our workflow for combining automation and human expertise to systematically discover new topics and assess existing topics in an ontology. Topic discovery includes generating new candidate topics, selecting a candidate topic, designing and classifying the topic, assessing if the topic should be accepted or rejected or re-designed, applying a classification, and documenting the decision. Topic assessment includes selecting an existing topic, classifying the topic, assessing if the topic should be maintained or retired or re-designed, and documenting the decision. View the [ontology enrichment workflow](https://github.com/conceptintegration/conceptintegration.github.io/blob/main/Ontology%20enrichment%20workflow.pdf).
