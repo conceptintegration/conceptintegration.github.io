@@ -2,7 +2,8 @@ project:
   type: website
   post-render:
     - "cp -rnv assets/. _site/assets/"
-
+  resources:
+    - "demos/sartori-lite/**"
 website:
   title: "Concept Integration Lab"
   navbar:

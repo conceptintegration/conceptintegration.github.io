@@ -15,3 +15,7 @@ If you have data, ontologies, or corpora in comparative law that could be a good
 **API Backend**
 
 This documentation describes the prototype of the REST Application Programming Interface (API) that will serve as a backend for our public-facing ontology repository and interactive tools. It will be hosted on a University of Texas server and will execute computationally demanding tasks in our online tools. These tasks include representing user-provided texts as embeddings, computing semantic similarity, creating clusters of user-provided texts, and querying corpora for top matches. To achieve scalability and efficiency, the API uses the FastAPI toolkit and leverages k-nearest neighbors (k-NN) indexing via the nmslib library. In the current implementation, most tasks can be performed in a fraction of a second. View our [API documentation](https://github.com/conceptintegration/conceptintegration.github.io/blob/main/REST%20API%20documentation.pdf).
+
+## Demos
+
+- [Sartori Lite](./demos/sartori-lite/index.html)
