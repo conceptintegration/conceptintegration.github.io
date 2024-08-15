@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<!-- Adapted from https://github.com/hpssjellis/beginner-tensorflowjs-examples-in-javascript/tree/master/tfjs-models/universal-sentence-encoder --> 
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sartori Lite</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+
+</head>
+<body>
+<h1>Sartori Lite</h1>
+<p>
+Compare an input concept against the CCP ontology using semantic similarity. Everything happens in-browser thanks to the <a href="https://github.com/tensorflow/tfjs-models/blob/master/universal-sentence-encoder/README.md">USE4 Lite model</a> from <code>TensorFlow.js</code>. Adapted from  Jeremy Ellis' <a href="https://github.com/hpssjellis/beginner-tensorflowjs-examples-in-javascript/tree/master/tfjs-models/universal-sentence-encoder">example</a>.
+</p>
+<hr>
+<p id="loading">⏳ Loading model...</p>
+<p id="loaded" style="display: none;">✅ Model loaded</p>
+<hr>
+<div id="app" style="display: none;">
+<form id="id_form" onsubmit="return false;">
+  <label for="about">Enter a concept:</label>
+      <input type="text" name="inputconcept" id="inputconcept" placeholder="Central Bank Independence" style="width: 100%;"></input>
+  <input type="submit" value="Submit" />
+</form>
+<table id="table-results">
+<thead>
+    <tr>
+      <th scope="col">Label</th>
+      <th scope="col">Description</th>
+      <th scope="col">Score</th>
+    </tr>
+</thead>
+<tbody id="table-results-tbody"></tbody>
+</table>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder@1.2.2"> </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="./index.js"></script>
+</body>
+</html>
+
