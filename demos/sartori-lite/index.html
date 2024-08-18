@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <title>Sartori Lite</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
-
+<link rel="stylesheet" href="index.css">
 </head>
 <body>
 <h1>Sartori Lite</h1>
@@ -24,7 +24,8 @@ Compare an input concept against the CCP ontology using semantic similarity. Eve
       <input type="text" name="inputconcept" id="inputconcept" placeholder="Central Bank Independence" style="width: 100%;"></input>
   <input type="submit" value="Submit" />
 </form>
-<table id="table-results">
+<div class="lds-dual-ring" style="display: none;"></div>
+<table id="table-results" style="display: none;">
 <thead>
     <tr>
       <th scope="col">Label</th>
@@ -41,4 +42,3 @@ Compare an input concept against the CCP ontology using semantic similarity. Eve
 <script src="./index.js"></script>
 </body>
 </html>
-

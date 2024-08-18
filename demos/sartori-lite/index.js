@@ -47,7 +47,7 @@ $.ajax({
 });
 ccp_descriptions.pop()
 
-// Function to get ordered indices
+// function to get ordered indices
 // https://stackoverflow.com/a/54323161
 function orderIndices(arr) {
   oi = arr.map((val, ind) => {return {ind, val}})
@@ -57,13 +57,36 @@ function orderIndices(arr) {
 }
 
 var model;
-var embeddings_ccp_labels;
-var embeddings_ccp_descriptions;
+
+// to print tensor as json:
+// JSON.stringify(embeddings_ccp_descriptions.arraySync())
+
+var embeddings_ccp_labels = new Array();
+
+$.ajax({
+  async: false,
+  type: 'GET',
+  url: './embeddings_ccp_labels.txt',
+  success: function(data) {
+    embeddings_ccp_labels = tf.tensor(JSON.parse(data));
+  }
+});
+
+var embeddings_ccp_descriptions = new Array();
+
+$.ajax({
+  async: false,
+  type: 'GET',
+  url: './embeddings_ccp_labels.txt',
+  success: function(data) {
+    embeddings_ccp_descriptions = tf.tensor(JSON.parse(data));
+  }
+});
 
 const init = async () => {
   model = await use.load();
-  embeddings_ccp_labels = await model.embed(ccp_labels);
-  embeddings_ccp_descriptions = await model.embed(ccp_descriptions);
+  // embeddings_ccp_labels = await model.embed(ccp_labels);
+  // embeddings_ccp_descriptions = await model.embed(ccp_descriptions);
   document.querySelector('#loading').style.display = 'none';
   document.querySelector('#loaded').style.display = 'inherit';
   document.querySelector('#app').style.display = 'inherit';
@@ -73,6 +96,10 @@ init();
 var embeddings_new;
 
 $("#id_form").on("submit", async function(){
+
+  document.querySelector('.lds-dual-ring').style.display = 'inherit';
+  document.querySelector('#table-results').style.display = 'none';
+
   var text_new = [];
   text_new.push(document.getElementById("inputconcept").value);
   var scores = [];
@@ -99,16 +126,19 @@ $("#id_form").on("submit", async function(){
   var ord_indices_scores = orderIndices(scores);
 
   for (let i = 0; i < 10; i++) {
-    const ind = ord_indices_scores[i] 
-    const row = table.insertRow(table.rows.length);
-    const cell1 = row.insertCell(0);
-    const cell2 = row.insertCell(1);
-    const cell3 = row.insertCell(2);
+    var ind = ord_indices_scores[i] 
+    var row = table.insertRow(table.rows.length);
+    var cell1 = row.insertCell(0);
+    var cell2 = row.insertCell(1);
+    var cell3 = row.insertCell(2);
     cell1.innerHTML = ccp_labels[ind];
     cell2.innerHTML = ccp_descriptions[ind];
     cell3.innerHTML = scores[ind];
   };
   
+  document.querySelector('.lds-dual-ring').style.display = 'none';
+  document.querySelector('#table-results').style.display = 'inherit';
+
   return false;
 });
 
