@@ -26,7 +26,7 @@ We propose a methodology to align social science ontologies, which are often loo
 
 ## Tools
 
-We have developed new interactive tools we are using in our work and preparing for public release in the next year. Thesse include the following tools related to ontology and corpus comparison.
+We have developed new interactive tools we are using in our work and preparing for public release in the next year. These include the following tools related to ontology and corpus comparison.
 
 **Ontology Comparison Tool**
 
