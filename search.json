@@ -112,13 +112,6 @@
     "text": "Demos\nSartori Lite\nThis demo allows users to compare any input concept agaisnt the CCP ontology using semantic similarity. Everything happens in-browser thanks to the USE4 Lite model from TensorFlow.js. We plan to add additional ontologies and functionality. Search for similar concepts on Sartori Lite."
   },
   {
-    "objectID": "ontology_repository.html#tools",
-    "href": "ontology_repository.html#tools",
-    "title": "Ontology Repository",
-    "section": "Tools",
-    "text": "Tools\nTranscription Review Tool\nThis tool allows users to upload sets of audio or video files, group them (e.g., by the names of legislative committees), and generate transcriptions of the files. The user can then select a specific file, view its audio/video file and transcription in the same screen, and watch/listen to the file synchronized with the transcription to annotate speaker names and make other edits to the transcription. We are currently using this tool in our work and preparing it for public release in the next year."
-  },
-  {
     "objectID": "ontology_repository.html#documentation",
     "href": "ontology_repository.html#documentation",
     "title": "Ontology Repository",
