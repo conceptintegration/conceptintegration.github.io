@@ -18,7 +18,7 @@ This allows us to answer several research questions related to constitutional an
 
 **Constitution Comparison Tool**
 
-This tool measures the semantic alignment of constitutions using two methods. First, it computes the distributions of the semantic similarities of all sections in a pair of constitutions and measures the differences between these distributions. Second, it compares the distributions of topic-section semantic similarities between two or more constitutions.
+This tool measures the semantic alignment of constitutions using two methods. First, it computes the distributions of the semantic similarities of all sections in a pair of constitutions and measures the differences between these distributions. Second, it compares the distributions of topic-section semantic similarities between two or more constitutions. We are currently using this tool in our work and preparing it for public release in the next year.
 
 ## Documentation
 
