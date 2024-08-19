@@ -14,6 +14,12 @@ Our approach takes several steps to identify a comprehensive set of topics in na
 
 This allows us to answer several research questions related to constitutional analysis, including: What new topics and patterns are revealed in analyzing the full topical scope of the world’s constitutions? How can we measure improvements in new topic discovery in constitutions? How can we validate the reduction of constitutional content without a CCP topic and the accuracy of topic matching to constitutions?
 
+## Tools
+
+**Constitution Comparison Tool**
+
+This tool measures the semantic alignment of constitutions using two methods. First, it computes the distributions of the semantic similarities of all sections in a pair of constitutions and measures the differences between these distributions. Second, it compares the distributions of topic-section semantic similarities between two or more constitutions.
+
 ## Documentation
 
 **Revised Tagging of Constitutions**
