@@ -6,8 +6,6 @@ This page is both a placeholder and an invitation. We are creating a public repo
 
 The repository will be a resource for scholars to explore concepts related to their own topics, build new ontologies by combining topics on particular themes, and see how their topics relate to this project’s constitutional, consultation, and court corpora.
 
-## Invitation
-
 If you have data, ontologies, or corpora in comparative law that could be a good fit for this ontology repository, please contact [Zachary Elkins](mailto:zelkins@austin.utexas.edu), [Roy Gardner](mailto:roybowesgardner@gmail.com), and [Ashley Moran](mailto:ashleymoran@utexas.edu). We look forward to talking with you and learning about your work!
 
 ## Demos
