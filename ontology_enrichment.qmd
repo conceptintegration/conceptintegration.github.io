@@ -24,6 +24,30 @@ Topic discovery and integration are essential to keep vocabularies—the set of 
 
 We propose a methodology to align social science ontologies, which are often loosely connected yet not fully cross-compatible. In our framework, multiple ontologies are represented via one multipartite graph, where vertices are topics and edges measure the semantic similarity between topics from different ontologies. This abstraction allows us to make the problem of alignment tractable by generating graph-level statistics and visualizations. In an illustration, we align two ontologies for topics in constitutions and peace agreements. Our methodology allows us to identify where existing ontologies align or differ, as well as to assess how potential new topics might fit in them. Future steps include public-facing interactive tools and direct connections with in-ontology and out-of-ontology text corpora.
 
+## Tools
+
+We have developed new interactive tools we are using in our work and preparing for public release in the next project year. Thesse include the following tools related to ontology and corpus comparison.
+
+**Ontology Comparison Tool**
+
+This tool allows users to explore how their topics relate to topics in other ontologies. It identifies topics in two ontologies that are most similar, producing clusters of similar topics. This allows users to see how others have conceptualized similar topics and decide whether they should reformulate their topics or add new topics to fully capture the concept.
+
+**Ontology Summarization Tool**
+
+This tool allows users to explore ontologies to identify topics that are related to their corpus but missing from their own ontology. It matches their and other ontologies to their corpus, identifying whether each section of the corpus best matches their or another ontology. This reveals corpus text that is not yet captured by their ontology—and prospective new topics to do so.
+
+**Ontology Enrichment Tool**
+
+This tool allows users to leverage both automation and human insight in integrating new topics into their ontologies. It allows users to test varied topic formulations to ensure a new topic’s formulation is distinct from existing topics in the ontology and captures most appearances of the topic in the corpus.
+
+**Constitution Comparison Tool**
+
+This tool measures the semantic alignment of constitutions using two methods. First, it computes the distributions of the semantic similarities of all sections in a pair of constitutions and measures the differences between these distributions. Second, it compares the distributions of topic-section semantic similarities between two or more constitutions. 
+
+**Segments-as-Topic Matching Tool**
+
+This tool allows users to create new topics from clusters of semantically similar segments in the corpus they seek to classify. It allows users to gather an initial set of segments that form the conceptual baseline of the topic and leverage those segments to find additional relevant segments in the corpus.
+
 ## Documentation
 
 **Topic Refinement Process**
