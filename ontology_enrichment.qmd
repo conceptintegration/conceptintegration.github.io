@@ -40,10 +40,6 @@ This tool allows users to explore ontologies to identify topics that are related
 
 This tool allows users to leverage both automation and human insight in integrating new topics into their ontologies. It allows users to test varied topic formulations to ensure a new topic’s formulation is distinct from existing topics in the ontology and captures most appearances of the topic in the corpus.
 
-**Constitution Comparison Tool**
-
-This tool measures the semantic alignment of constitutions using two methods. First, it computes the distributions of the semantic similarities of all sections in a pair of constitutions and measures the differences between these distributions. Second, it compares the distributions of topic-section semantic similarities between two or more constitutions. 
-
 **Segments-as-Topic Matching Tool**
 
 This tool allows users to create new topics from clusters of semantically similar segments in the corpus they seek to classify. It allows users to gather an initial set of segments that form the conceptual baseline of the topic and leverage those segments to find additional relevant segments in the corpus.
