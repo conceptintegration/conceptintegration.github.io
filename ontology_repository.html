@@ -148,8 +148,9 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#invitation" id="toc-invitation" class="nav-link active" data-scroll-target="#invitation">Invitation</a></li>
-  <li><a href="#documentation" id="toc-documentation" class="nav-link" data-scroll-target="#documentation">Documentation</a></li>
   <li><a href="#demos" id="toc-demos" class="nav-link" data-scroll-target="#demos">Demos</a></li>
+  <li><a href="#tools" id="toc-tools" class="nav-link" data-scroll-target="#tools">Tools</a></li>
+  <li><a href="#documentation" id="toc-documentation" class="nav-link" data-scroll-target="#documentation">Documentation</a></li>
   </ul>
 </nav>
     </div>
@@ -181,16 +182,20 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="invitation">Invitation</h2>
 <p>If you have data, ontologies, or corpora in comparative law that could be a good fit for this ontology repository, please contact <a href="mailto:zelkins@austin.utexas.edu">Zachary Elkins</a>, <a href="mailto:roybowesgardner@gmail.com">Roy Gardner</a>, and <a href="mailto:ashleymoran@utexas.edu">Ashley Moran</a>. We look forward to talking with you and learning about your work!</p>
 </section>
+<section id="demos" class="level2">
+<h2 class="anchored" data-anchor-id="demos">Demos</h2>
+<p><strong>Sartori Lite</strong></p>
+<p>This demo allows users to compare any input concept agaisnt the CCP ontology using semantic similarity. Everything happens in-browser thanks to the <a href="https://github.com/tensorflow/tfjs-models/blob/master/universal-sentence-encoder/README.md">USE4 Lite model</a> from TensorFlow.js. We plan to add additional ontologies and functionality. Search here for similar concepts on <a href="./demos/sartori-lite/index.html">Sartori Lite</a>.</p>
+</section>
+<section id="tools" class="level2">
+<h2 class="anchored" data-anchor-id="tools">Tools</h2>
+<p><strong>Transcription Review Tool</strong></p>
+<p>This tool allows users to upload sets of audio or video files, group them (e.g., by the names of legislative committees), and generate transcriptions of the files. The user can then select a specific file, view its audio/video file and transcription in the same screen, and watch/listen to the file synchronized with the transcription to annotate speaker names and make other edits to the transcription. We are currently using this tool in our work and preparing it for public release in the next year.</p>
+</section>
 <section id="documentation" class="level2">
 <h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
 <p><strong>API Backend</strong></p>
 <p>This documentation describes the prototype of the REST Application Programming Interface (API) that will serve as a backend for our public-facing ontology repository and interactive tools. It will be hosted on a University of Texas server and will execute computationally demanding tasks in our online tools. These tasks include representing user-provided texts as embeddings, computing semantic similarity, creating clusters of user-provided texts, and querying corpora for top matches. To achieve scalability and efficiency, the API uses the FastAPI toolkit and leverages k-nearest neighbors (k-NN) indexing via the nmslib library. In the current implementation, most tasks can be performed in a fraction of a second. View our <a href="https://github.com/conceptintegration/conceptintegration.github.io/blob/main/REST%20API%20documentation.pdf">API documentation</a>.</p>
-</section>
-<section id="demos" class="level2">
-<h2 class="anchored" data-anchor-id="demos">Demos</h2>
-<ul>
-<li><a href="./demos/sartori-lite/index.html">Sartori Lite</a></li>
-</ul>
 
 
 </section>

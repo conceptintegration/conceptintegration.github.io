@@ -112,18 +112,25 @@
     "text": "Invitation\nIf you have data, ontologies, or corpora in comparative law that could be a good fit for this ontology repository, please contact Zachary Elkins, Roy Gardner, and Ashley Moran. We look forward to talking with you and learning about your work!"
   },
   {
+    "objectID": "ontology_repository.html#demos",
+    "href": "ontology_repository.html#demos",
+    "title": "Ontology Repository",
+    "section": "Demos",
+    "text": "Demos\nSartori Lite\nThis demo allows users to compare any input concept agaisnt the CCP ontology using semantic similarity. Everything happens in-browser thanks to the USE4 Lite model from TensorFlow.js. We plan to add additional ontologies and functionality. Search here for similar concepts on Sartori Lite."
+  },
+  {
+    "objectID": "ontology_repository.html#tools",
+    "href": "ontology_repository.html#tools",
+    "title": "Ontology Repository",
+    "section": "Tools",
+    "text": "Tools\nTranscription Review Tool\nThis tool allows users to upload sets of audio or video files, group them (e.g., by the names of legislative committees), and generate transcriptions of the files. The user can then select a specific file, view its audio/video file and transcription in the same screen, and watch/listen to the file synchronized with the transcription to annotate speaker names and make other edits to the transcription. We are currently using this tool in our work and preparing it for public release in the next year."
+  },
+  {
     "objectID": "ontology_repository.html#documentation",
     "href": "ontology_repository.html#documentation",
     "title": "Ontology Repository",
     "section": "Documentation",
     "text": "Documentation\nAPI Backend\nThis documentation describes the prototype of the REST Application Programming Interface (API) that will serve as a backend for our public-facing ontology repository and interactive tools. It will be hosted on a University of Texas server and will execute computationally demanding tasks in our online tools. These tasks include representing user-provided texts as embeddings, computing semantic similarity, creating clusters of user-provided texts, and querying corpora for top matches. To achieve scalability and efficiency, the API uses the FastAPI toolkit and leverages k-nearest neighbors (k-NN) indexing via the nmslib library. In the current implementation, most tasks can be performed in a fraction of a second. View our API documentation."
-  },
-  {
-    "objectID": "ontology_repository.html#demos",
-    "href": "ontology_repository.html#demos",
-    "title": "Ontology Repository",
-    "section": "Demos",
-    "text": "Demos\n\nSartori Lite"
   },
   {
     "objectID": "research_design.html",
