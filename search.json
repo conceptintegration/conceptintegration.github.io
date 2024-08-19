@@ -98,6 +98,13 @@
     "text": "Constitution drafters and researchers have long explored the origins and consequences of constitutional ideas—to learn why constitutions succeed and falter, when constitutional ideas gain traction, and how they shape people’s lives. Yet it is hard to analyze these questions across different countries and contexts without a coordinated approach to conceptualizing and identifying these ideas. CCP’s current analysis of 330 features across constitutions is a robust start at systematic analysis of national constitutions, yet an expanded set of topics and tools will allow us to identify myriad additional topics. Human-based content analysis is time-consuming, costly, and (even with rigorous coding procedures) inherently subjective. On the other hand, our NLP tools support automated content analysis that is more comprehensive, objective, and reproducible.\nOur constitutional project thus uses our new CCP ontology to conduct an expanded analysis of constitutions. The aim is to produce complete section-level topic coverage of national constitutions worldwide. This will identify topics in constitution sections that are not yet indexed by CCP and will identify even more topics in those sections already indexed by CCP.\nOur approach takes several steps to identify a comprehensive set of topics in national constitutions worldwide. This will:\nThis allows us to answer several research questions related to constitutional analysis, including: What new topics and patterns are revealed in analyzing the full topical scope of the world’s constitutions? How can we measure improvements in new topic discovery in constitutions? How can we validate the reduction of constitutional content without a CCP topic and the accuracy of topic matching to constitutions?"
   },
   {
+    "objectID": "constitutional_analysis.html#tools",
+    "href": "constitutional_analysis.html#tools",
+    "title": "Constitutional Analysis",
+    "section": "Tools",
+    "text": "Tools\nConstitution Comparison Tool\nThis tool measures the semantic alignment of constitutions using two methods. First, it computes the distributions of the semantic similarities of all sections in a pair of constitutions and measures the differences between these distributions. Second, it compares the distributions of topic-section semantic similarities between two or more constitutions."
+  },
+  {
     "objectID": "constitutional_analysis.html#documentation",
     "href": "constitutional_analysis.html#documentation",
     "title": "Constitutional Analysis",
