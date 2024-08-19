@@ -14,12 +14,6 @@ If you have data, ontologies, or corpora in comparative law that could be a good
 
 This demo allows users to compare any input concept agaisnt the CCP ontology using semantic similarity. Everything happens in-browser thanks to the [USE4 Lite model](https://github.com/tensorflow/tfjs-models/blob/master/universal-sentence-encoder/README.md) from TensorFlow.js. We plan to add additional ontologies and functionality. Search for similar concepts on [Sartori Lite](./demos/sartori-lite/index.html).
 
-## Tools
-
-**Transcription Review Tool**
-
-This tool allows users to upload sets of audio or video files, group them (e.g., by the names of legislative committees), and generate transcriptions of the files. The user can then select a specific file, view its audio/video file and transcription in the same screen, and watch/listen to the file synchronized with the transcription to annotate speaker names and make other edits to the transcription. We are currently using this tool in our work and preparing it for public release in the next year.
-
 ## Documentation
 
 **API Backend**
