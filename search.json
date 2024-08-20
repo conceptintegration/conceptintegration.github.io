@@ -123,7 +123,7 @@
     "href": "ontology_repository.html#demos",
     "title": "Ontology Repository",
     "section": "Demos",
-    "text": "Demos\nSartori Lite\nThis demo allows users to compare any input concept agaisnt the CCP ontology using semantic similarity. Everything happens in-browser thanks to the USE4 Lite model from TensorFlow.js. We plan to add additional ontologies and functionality. Search for similar concepts on Sartori Lite."
+    "text": "Demos\nSartori Lite\nThis demo allows users to compare any input concept against the CCP ontology using semantic similarity. Everything happens in-browser thanks to the USE4 Lite model from TensorFlow.js. We plan to add additional ontologies and functionality. Search for similar concepts on Sartori Lite."
   },
   {
     "objectID": "ontology_repository.html#documentation",
