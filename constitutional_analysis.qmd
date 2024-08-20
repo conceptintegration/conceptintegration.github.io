@@ -16,7 +16,7 @@ This allows us to answer several research questions related to constitutional an
 
 ## Publications
 
-**Explaining What Is (and Isn't) in the new Chilean Draft Constitution**
+**Explaining What Is (and Isn't) in the New Chilean Draft Constitution**
 
 This website story uses several translated Chilean draft constitutions that this project translated and tagged with topics to explain how members of the public can use CCP’s constitutional comparison tools to analyze the draft constitution before voting on it. View the [story](https://comparativeconstitutionsproject.org/exploring-what-is-and-isnt-in-the-new-chilean-draft-constitution-2/).
 
