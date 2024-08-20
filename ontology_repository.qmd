@@ -12,7 +12,7 @@ If you have data, ontologies, or corpora in comparative law that could be a good
 
 **Sartori Lite**
 
-This demo allows users to compare any input concept against the CCP ontology using semantic similarity. Everything happens in-browser thanks to the [USE4 Lite model](https://github.com/tensorflow/tfjs-models/blob/master/universal-sentence-encoder/README.md) from TensorFlow.js. We plan to add additional ontologies and functionality. Search for similar concepts on [Sartori Lite](./demos/sartori-lite/index.html).
+This demo allows users to compare any input concept against the CCP ontology using semantic similarity. Everything happens in-browser thanks to the [USE4 Lite model](https://github.com/tensorflow/tfjs-models/blob/master/universal-sentence-encoder/README.md) from TensorFlow.js. We plan to add additional ontologies, functionality, and tools as we expand the platform. In the meantime, you can search for similar concepts in the CCP ontology on [Sartori Lite](./demos/sartori-lite/index.html).
 
 ## Documentation
 
