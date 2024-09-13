@@ -24,7 +24,7 @@ website:
             href: consultation_analysis.qmd
           - text: "Court analysis"
             href: court_analysis.qmd
-          - text: "Ontology repository"
+          - text: "Concept repository"
             href: ontology_repository.qmd
       - href: collaboration.qmd
         text: "Collaboration"
