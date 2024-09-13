@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Ontology Repository – Concept Integration Lab</title>
+<title>Concept Repository – Concept Integration Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -157,7 +157,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ontology Repository</h1>
+<h1 class="title">Concept Repository</h1>
 </div>
 
 
@@ -174,18 +174,18 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>We are creating a public repository for ontologies in comparative law to collect ontologies in the field and provide a foundation for concept integration. Hosted here on GitHub, the repository will include ontologies from publishers and cataloguers, ontologies from individual authors of datasets, and relevant corpora. It will also include <a href="https://conceptintegration.github.io/ontology_enrichment.html">interactive tools</a> we are developing to support the exploration of ontologies and corpora using our methodology.</p>
-<p>The repository will be a resource for scholars to explore concepts related to their own topics, build new ontologies by combining topics on particular themes, and see how their topics relate to this project’s constitutional, consultation, and court corpora.</p>
-<p>If you have data, ontologies, or corpora in comparative law that could be a good fit for this ontology repository, please contact <a href="mailto:zelkins@austin.utexas.edu">Zachary Elkins</a>, <a href="mailto:roybowesgardner@gmail.com">Roy Gardner</a>, and <a href="mailto:ashleymoran@utexas.edu">Ashley Moran</a>. We look forward to talking with you and learning about your work!</p>
+<p>We are creating a public repository for concepts in comparative law to collect concepts in the field and provide a foundation for concept integration. Hosted here on GitHub, the repository will include topic sets from publishers and cataloguers and related document sets indexed by these topics. It will also include <a href="https://conceptintegration.github.io/ontology_enrichment.html">interactive test-as-data tools</a> we are developing to explore these vocabularies and documents.</p>
+<p>The repository will be a resource for scholars to explore concepts related to their own, compare how varied researchers have conceptualized similar topics, build new vocabularies around specific topics, and find these topics in related constitutional, consultation, and court documents.</p>
+<p>If you have topic sets, corpora, or data in comparative law that could be a good fit for this concept repository, please contact <a href="mailto:zelkins@austin.utexas.edu">Zachary Elkins</a>, <a href="mailto:roybowesgardner@gmail.com">Roy Gardner</a>, and <a href="mailto:ashleymoran@utexas.edu">Ashley Moran</a>. We look forward to talking with you and learning about your work!</p>
 <section id="demos" class="level2">
 <h2 class="anchored" data-anchor-id="demos">Demos</h2>
 <p><strong>Sartori Lite</strong></p>
-<p>This demo allows users to compare any input concept against the CCP ontology using semantic similarity. Everything happens in-browser thanks to the <a href="https://github.com/tensorflow/tfjs-models/blob/master/universal-sentence-encoder/README.md">USE4 Lite model</a> from TensorFlow.js. We plan to add additional ontologies, functionality, and tools as we expand the platform. In the meantime, you can search for similar concepts in the CCP ontology on <a href="./demos/sartori-lite/index.html">Sartori Lite</a>.</p>
+<p>This demo allows users to compare any input concept against the CCP ontology using semantic similarity. Everything happens in-browser thanks to the <a href="https://github.com/tensorflow/tfjs-models/blob/master/universal-sentence-encoder/README.md">USE4 Lite model</a> from TensorFlow.js. We plan to add additional topic sets, functionality, and tools as we expand the platform. In the meantime, you can search for similar concepts in the CCP ontology on <a href="./demos/sartori-lite/index.html">Sartori Lite</a>.</p>
 </section>
 <section id="documentation" class="level2">
 <h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
 <p><strong>API Backend</strong></p>
-<p>This documentation describes the prototype of the REST Application Programming Interface (API) that will serve as a backend for our public-facing ontology repository and interactive tools. It will be hosted on a University of Texas server and will execute computationally demanding tasks in our online tools. These tasks include representing user-provided texts as embeddings, computing semantic similarity, creating clusters of user-provided texts, and querying corpora for top matches. To achieve scalability and efficiency, the API uses the FastAPI toolkit and leverages k-nearest neighbors (k-NN) indexing via the nmslib library. In the current implementation, most tasks can be performed in a fraction of a second. View our <a href="https://github.com/conceptintegration/conceptintegration.github.io/blob/main/REST%20API%20documentation.pdf">API documentation</a>.</p>
+<p>This documentation describes the prototype of the REST Application Programming Interface (API) that will serve as a backend for our public-facing concept repository and interactive tools. It will be hosted on a University of Texas server and will execute computationally demanding tasks in our online tools. These tasks include representing user-provided texts as embeddings, computing semantic similarity, creating clusters of user-provided texts, and querying corpora for top matches. To achieve scalability and efficiency, the API uses the FastAPI toolkit and leverages k-nearest neighbors (k-NN) indexing via the nmslib library. In the current implementation, most tasks can be performed in a fraction of a second. View our <a href="https://github.com/conceptintegration/conceptintegration.github.io/blob/main/REST%20API%20documentation.pdf">API documentation</a>.</p>
 
 
 </section>
