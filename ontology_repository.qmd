@@ -1,21 +1,21 @@
 ---
-title: "Ontology Repository"
+title: "Concept Repository"
 ---
 
-We are creating a public repository for ontologies in comparative law to collect ontologies in the field and provide a foundation for concept integration. Hosted here on GitHub, the repository will include ontologies from publishers and cataloguers, ontologies from individual authors of datasets, and relevant corpora. It will also include [interactive tools](https://conceptintegration.github.io/ontology_enrichment.html) we are developing to support the exploration of ontologies and corpora using our methodology.
+We are creating a public repository for concepts in comparative law to collect concepts in the field and provide a foundation for concept integration. Hosted here on GitHub, the repository will include topic sets from publishers and cataloguers and related document sets indexed by these topics. It will also include [interactive test-as-data tools](https://conceptintegration.github.io/ontology_enrichment.html) we are developing to explore these vocabularies and documents.
 
-The repository will be a resource for scholars to explore concepts related to their own topics, build new ontologies by combining topics on particular themes, and see how their topics relate to this project’s constitutional, consultation, and court corpora.
+The repository will be a resource for scholars to explore concepts related to their own, compare how varied researchers have conceptualized similar topics, build new vocabularies around specific topics, and find these topics in related constitutional, consultation, and court documents.
 
-If you have data, ontologies, or corpora in comparative law that could be a good fit for this ontology repository, please contact [Zachary Elkins](mailto:zelkins@austin.utexas.edu), [Roy Gardner](mailto:roybowesgardner@gmail.com), and [Ashley Moran](mailto:ashleymoran@utexas.edu). We look forward to talking with you and learning about your work!
+If you have topic sets, corpora, or data in comparative law that could be a good fit for this concept repository, please contact [Zachary Elkins](mailto:zelkins@austin.utexas.edu), [Roy Gardner](mailto:roybowesgardner@gmail.com), and [Ashley Moran](mailto:ashleymoran@utexas.edu). We look forward to talking with you and learning about your work!
 
 ## Demos
 
 **Sartori Lite**
 
-This demo allows users to compare any input concept against the CCP ontology using semantic similarity. Everything happens in-browser thanks to the [USE4 Lite model](https://github.com/tensorflow/tfjs-models/blob/master/universal-sentence-encoder/README.md) from TensorFlow.js. We plan to add additional ontologies, functionality, and tools as we expand the platform. In the meantime, you can search for similar concepts in the CCP ontology on [Sartori Lite](./demos/sartori-lite/index.html).
+This demo allows users to compare any input concept against the CCP ontology using semantic similarity. Everything happens in-browser thanks to the [USE4 Lite model](https://github.com/tensorflow/tfjs-models/blob/master/universal-sentence-encoder/README.md) from TensorFlow.js. We plan to add additional topic sets, functionality, and tools as we expand the platform. In the meantime, you can search for similar concepts in the CCP ontology on [Sartori Lite](./demos/sartori-lite/index.html).
 
 ## Documentation
 
 **API Backend**
 
-This documentation describes the prototype of the REST Application Programming Interface (API) that will serve as a backend for our public-facing ontology repository and interactive tools. It will be hosted on a University of Texas server and will execute computationally demanding tasks in our online tools. These tasks include representing user-provided texts as embeddings, computing semantic similarity, creating clusters of user-provided texts, and querying corpora for top matches. To achieve scalability and efficiency, the API uses the FastAPI toolkit and leverages k-nearest neighbors (k-NN) indexing via the nmslib library. In the current implementation, most tasks can be performed in a fraction of a second. View our [API documentation](https://github.com/conceptintegration/conceptintegration.github.io/blob/main/REST%20API%20documentation.pdf).
+This documentation describes the prototype of the REST Application Programming Interface (API) that will serve as a backend for our public-facing concept repository and interactive tools. It will be hosted on a University of Texas server and will execute computationally demanding tasks in our online tools. These tasks include representing user-provided texts as embeddings, computing semantic similarity, creating clusters of user-provided texts, and querying corpora for top matches. To achieve scalability and efficiency, the API uses the FastAPI toolkit and leverages k-nearest neighbors (k-NN) indexing via the nmslib library. In the current implementation, most tasks can be performed in a fraction of a second. View our [API documentation](https://github.com/conceptintegration/conceptintegration.github.io/blob/main/REST%20API%20documentation.pdf).
