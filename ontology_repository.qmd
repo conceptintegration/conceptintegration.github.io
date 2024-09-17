@@ -2,7 +2,7 @@
 title: "Concept Repository"
 ---
 
-We are creating a public repository for concepts in comparative law to collect concepts in the field and provide a foundation for concept integration. Hosted here on GitHub, the repository will include topic sets from publishers and cataloguers and related document sets indexed by these topics. It will also include [interactive tools](https://conceptintegration.github.io/ontology_enrichment.html) we are developing to explore vocabularies and documents.
+We are creating a public repository for concepts in comparative law to collect concepts in the field and provide a foundation for concept integration. Hosted here on GitHub, the repository will include topic sets from publishers and cataloguers and related document sets indexed by these topics. It will also include [interactive tools](https://conceptintegration.github.io/ontology_enrichment.html) we are developing to explore these vocabularies and documents.
 
 The repository will be a resource for scholars to explore concepts related to their own, compare how varied researchers have conceptualized similar topics, build new vocabularies around specific topics, and find these topics in related constitutional, consultation, and court documents.
 
@@ -12,7 +12,7 @@ If you have topic sets, corpora, or data in comparative law that could be a good
 
 **Sartori Lite**
 
-This demo allows users to compare any input concept against the CCP ontology using semantic similarity. Everything happens in-browser thanks to the [USE4 Lite model](https://github.com/tensorflow/tfjs-models/blob/master/universal-sentence-encoder/README.md) from TensorFlow.js. We plan to add additional topic sets, functionality, and tools as we expand the platform. In the meantime, you can search for similar concepts in the CCP ontology on [Sartori Lite](./demos/sartori-lite/index.html).
+This demo allows users to compare any input concept against the CCP ontology using semantic similarity. Everything happens in-browser thanks to the [USE4 Lite model](https://github.com/tensorflow/tfjs-models/blob/master/universal-sentence-encoder/README.md) from TensorFlow.js. We plan to add additional topic sets, functionality, and tools as we expand the platform. In the meantime, you can search for similar concepts in the CCP ontology on our demo [Sartori Lite](./demos/sartori-lite/index.html).
 
 ## Documentation
 
