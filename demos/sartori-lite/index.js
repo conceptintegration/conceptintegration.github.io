@@ -23,29 +23,34 @@
 // https://stackoverflow.com/a/14969784
 // https://stackoverflow.com/a/1761437
 
-var ccp_labels = new Array();
+$( "#ontccp" ).prop( "checked", true );
+$( "#ontidea" ).prop( "checked", true );
+
+var merged_td = new Array();
 
 $.ajax({
   async: false,
   type: 'GET',
-  url: './ccp_labels.txt',
+  url: './data/merged_td.txt',
   success: function(data) {
-    ccp_labels = data.split('\n');
+    merged_td = data.split('\n');
   }
 });
 
-ccp_labels.pop();
+merged_td.pop();
 
-var ccp_descriptions = new Array();
+var merged_td_ont = new Array();
+
 $.ajax({
   async: false,
   type: 'GET',
-  url: './ccp_descriptions.txt',
+  url: './data/merged_td_ont.txt',
   success: function(data) {
-    ccp_descriptions = data.split('\n');
+    merged_td_ont = data.split('\n');
   }
 });
-ccp_descriptions.pop()
+
+merged_td_ont.pop();
 
 // function to get ordered indices
 // https://stackoverflow.com/a/54323161
@@ -58,35 +63,24 @@ function orderIndices(arr) {
 
 var model;
 
-// to print tensor as json:
-// JSON.stringify(embeddings_ccp_descriptions.arraySync())
-
-var embeddings_ccp_labels = new Array();
+var embeddings_merged = new Array();
 
 $.ajax({
-  async: false,
+  async: true,
   type: 'GET',
-  url: './embeddings_ccp_labels.txt',
+  url: './embeddings/embeddings_merged_td.txt',
   success: function(data) {
-    embeddings_ccp_labels = tf.tensor(JSON.parse(data));
-  }
-});
-
-var embeddings_ccp_descriptions = new Array();
-
-$.ajax({
-  async: false,
-  type: 'GET',
-  url: './embeddings_ccp_labels.txt',
-  success: function(data) {
-    embeddings_ccp_descriptions = tf.tensor(JSON.parse(data));
+    embeddings_merged = tf.tensor(JSON.parse(data));
   }
 });
 
 const init = async () => {
   model = await use.load();
-  // embeddings_ccp_labels = await model.embed(ccp_labels);
+  // embeddings_ccp_td = await model.embed(ccp_td);
+  // embeddings_merged_td = await model.embed(merged_td);
   // embeddings_ccp_descriptions = await model.embed(ccp_descriptions);
+  // to print tensor as json:
+  // JSON.stringify(embeddings_ccp_descriptions.arraySync())
   document.querySelector('#loading').style.display = 'none';
   document.querySelector('#loaded').style.display = 'inherit';
   document.querySelector('#app').style.display = 'inherit';
@@ -111,16 +105,11 @@ $("#id_form").on("submit", async function(){
   
   var table = document.getElementById("table-results").getElementsByTagName('tbody')[0];
   
-  for (let i = 0; i < ccp_labels.length; i++) {
-    const sentenceJ_labels = embeddings_ccp_labels.slice([i, 0], [1]);
-    const sentenceJ_descriptions = embeddings_ccp_descriptions.slice([i, 0], [1]);
-    const score_label = sentenceI.matMul(sentenceJ_labels, false, true).dataSync();
-    const score_description = sentenceI.matMul(sentenceJ_descriptions, false, true).dataSync();
-    const score_label0 = Array.from(score_label)[0];
-    const score_description0 = Array.from(score_description)[0];
-    const score0 = parseFloat(Math.max(score_label0, score_description0)).toFixed(3);
+  for (let i = 0; i < merged_td.length; i++) {
+    const sentenceJ_labels = embeddings_merged.slice([i, 0], [1]);
+    const score_this = sentenceI.matMul(sentenceJ_labels, false, true).dataSync();
     
-    scores.push(score0);
+    scores.push(score_this);
   };
 
   var ord_indices_scores = orderIndices(scores);
@@ -131,9 +120,10 @@ $("#id_form").on("submit", async function(){
     var cell1 = row.insertCell(0);
     var cell2 = row.insertCell(1);
     var cell3 = row.insertCell(2);
-    cell1.innerHTML = ccp_labels[ind];
-    cell2.innerHTML = ccp_descriptions[ind];
-    cell3.innerHTML = scores[ind];
+    cell1.innerHTML = merged_td_ont[ind];
+    cell2.innerHTML = merged_td[ind];
+    var s = parseFloat(scores[ind]).toFixed(3);
+    cell3.innerHTML = s;
   };
   
   document.querySelector('.lds-dual-ring').style.display = 'none';

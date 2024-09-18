@@ -10,33 +10,54 @@
 <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<h1>Sartori Lite</h1>
-<p>
-Compare an input concept against the CCP ontology using semantic similarity. Everything happens in-browser thanks to the <a href="https://github.com/tensorflow/tfjs-models/blob/master/universal-sentence-encoder/README.md">USE4 Lite model</a> from <code>TensorFlow.js</code>. Adapted from  Jeremy Ellis' <a href="https://github.com/hpssjellis/beginner-tensorflowjs-examples-in-javascript/tree/master/tfjs-models/universal-sentence-encoder">example</a>.
+<p style="font-size: xx-large; margin-block-end: 0em;">
+<b>Sartori Lite:</b> Search for a concept across ontologies
 </p>
-<hr>
 <p id="loading">⏳ Loading model...</p>
-<p id="loaded" style="display: none;">✅ Model loaded</p>
+<p id="loaded" style="display: none;">🚀 Model loaded</p>
 <hr>
 <div id="app" style="display: none;">
 <form id="id_form" onsubmit="return false;">
-  <label for="about">Enter a concept:</label>
-      <input type="text" name="inputconcept" id="inputconcept" placeholder="Central Bank Independence" style="width: 95%;"></input>
-  <input type="submit" value="Submit" />
+  <label>Enter a concept:</label>
+      <input type="text" name="inputconcept" id="inputconcept" placeholder="Electoral rules" style="width: 95%;"></input>
+  <label>Select ontologies:</label>
+  <br>
+      <input type="checkbox" id="ontccp" name="ontccp">CCP
+      <input type="checkbox" id="ontidea" name="ontidea">IDEA
+<input type="submit" value="Submit" />
 </form>
 <div class="lds-dual-ring" style="display: none;"></div>
 <table id="table-results" style="display: none;">
 <thead>
     <tr>
-      <th scope="col">Label</th>
-      <th scope="col">Description</th>
+      <th scope="col">Ontology</th>
+      <th scope="col">Topic-Description</th>
       <th scope="col">Score</th>
     </tr>
 </thead>
 <tbody id="table-results-tbody"></tbody>
 </table>
+<hr>
 </div>
-<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0"></script>
+<details style="background-color: white !important;">
+  <summary style="background-color: white !important;">Details</summary>
+  <p><b>Tech:</b> Everything happens in-browser thanks to the <a href="https://github.com/tensorflow/tfjs-models/blob/master/universal-sentence-encoder/README.md">USE4 Lite model</a> from <code>TensorFlow.js</code>. Adapted from  Jeremy Ellis' <a href="https://github.com/hpssjellis/beginner-tensorflowjs-examples-in-javascript/tree/master/tfjs-models/universal-sentence-encoder">example</a></p>
+  <p><b>Sources:</b>
+    <a href="https://comparativeconstitutionsproject.org/#">CCP</a>;
+    <a href="https://www.idea.int/data-tools/data/electoral-management-design-database">IDEA</a>    
+  </p>
+  
+</details>
+<!-- Import @tensorflow/tfjs or @tensorflow/tfjs-core -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+ 
+<!-- Adds the WASM backend to the global backend registry -->
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-wasm/dist/tf-backend-wasm.js"></script>
+ 
+<script>
+  tf.setBackend('wasm').then(() => main());
+</script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder@1.2.2"> </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="./index.js"></script>
