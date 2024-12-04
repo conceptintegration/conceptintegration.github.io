@@ -13,6 +13,11 @@ for (let i = 0; i < Object.keys(nodesData).length; i++) {
 };
 
 $("#id_form").on("submit", async function () {
+    
+    if (document.getElementById("inputconcept").value == ""){
+        return false;
+      }    
+
     $("#container").empty();
     var text_new = [];
     text_new.push(document.getElementById("inputconcept").value);
