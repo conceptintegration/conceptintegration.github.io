@@ -1,0 +1,46 @@
+<!doctype html>
+<!-- Adapted from https://github.com/hpssjellis/beginner-tensorflowjs-examples-in-javascript/tree/master/tfjs-models/universal-sentence-encoder -->
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+    <title>Sartori Network</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <p style="font-size: x-large; margin-block-end: 0em; margin-top: 0px;">
+        <b>🕸️ Sartori Network:</b> Visualize a concept in an ontology
+    </p>
+    <p id="loading">⏳ Loading model...</p>
+    <p id="loaded" style="display: none;">🚀 Model loaded</p>
+    <hr>
+    <div id="app" style="display: none;">
+        <form id="id_form" onsubmit="return false;">
+            <label>Enter a concept:</label>
+            <input type="text" name="inputconcept" id="inputconcept" placeholder="Electoral rules"
+                style="width: 95%;"></input>
+            <input type="submit" value="Submit" />
+        </form>
+        <div id="container" style="width: 100hw; height: 70vh; background: white"></div>
+    </div>
+
+    <script src="./sigma.min.js"></script>
+    <script src="./graphology.umd.min.js"></script>
+    <script src="./jquery-3.6.0.min.js"></script>
+    <!-- https://stackoverflow.com/questions/49562978/how-to-use-npm-modules-in-browser-is-possible-to-use-them-even-in-local-pc -->
+    <script src="./scale-color-perceptual.js"></script>
+    <script src="./nodesData.js"></script>
+    <script src="./edgesData.js"></script>
+    <script src="./embeddings.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-wasm/dist/tf-backend-wasm.js"></script>
+    <script>
+        tf.setBackend('wasm').then(() => main());
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder@1.2.2"> </script>
+    <script src="./index.js"> </script>
+</body>
+
+</html>

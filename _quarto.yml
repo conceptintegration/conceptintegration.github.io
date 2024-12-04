@@ -4,6 +4,7 @@ project:
     - "cp -rnv assets/. _site/assets/"
   resources:
     - "demos/sartori-lite/**"
+    - "demos/sartori-network/**"
 website:
   title: "Concept Integration Lab"
   navbar:
