@@ -19,13 +19,25 @@
     <div id="app" style="display: none;">
         <form id="id_form" onsubmit="return false;">
             <label>Enter a concept:</label>
-            <input type="text" name="inputconcept" id="inputconcept" placeholder="Electoral rules"
+            <input type="text" name="inputconcept" id="inputconcept" placeholder="Constitutional court"
                 style="width: 95%;"></input>
             <input type="submit" value="Submit" />
         </form>
         <div id="container" style="width: 100hw; height: 70vh; background: white"></div>
+        <hr>
+        <details>
+            <summary>Details</summary>
+            <p><b>Tech:</b> Everything happens in-browser thanks to the <a
+                    href="https://github.com/tensorflow/tfjs-models/blob/master/universal-sentence-encoder/README.md">USE4
+                    Lite
+                    model</a> from <code>TensorFlow.js</code>. Adapted from Jeremy Ellis' <a
+                    href="https://github.com/hpssjellis/beginner-tensorflowjs-examples-in-javascript/tree/master/tfjs-models/universal-sentence-encoder">example.</a>
+            </p>
+            <p><b>Sources:</b>
+                <a href="https://comparativeconstitutionsproject.org/#">CCP</a>;
+            </p>
+        </details>
     </div>
-
     <script src="./sigma.min.js"></script>
     <script src="./graphology.umd.min.js"></script>
     <script src="./jquery-3.6.0.min.js"></script>
