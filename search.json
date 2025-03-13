@@ -1,110 +1,5 @@
 [
   {
-    "objectID": "consultation_analysis.html",
-    "href": "consultation_analysis.html",
-    "title": "Consultation Analysis",
-    "section": "",
-    "text": "Public consultation has become an indispensable part of constitutional design, yet the voluminous narrative data produced are notoriously difficult to analyze. Most recently, the consultation process in Chile produced more than 2.4 million suggestions for constitutional content and nearly 265,000 more comments explaining these. The question guiding such consultations—“Which constitutional topics are of most interest to citizens?”—is intractable without an applicable ontology and a method for analyzing vast volumes of text.\nOur consultation project has developed tools to link constitutional content to public consultation input to assess the prevalence, evolution, and uptake of constitutional ideas raised by citizens. We are currently analyzing the world’s most recent and ambitious consultation effort in Chile. Detailed, systematic analysis of such voluminous public consultation input has been prohibitively complex to date, but our new tools make it possible.\nOur approach takes several steps to assess the constitutional topics raised in Chilean public consultations. This will:\nThis allows us to answer several research questions related to public consultations, namely: Which constitutional topics are raised most often in Chilean public consultations and drafting body deliberations? How do topics raised in Chile compare to those in constitutions globally? Do drafters leverage public input rhetorically or substantively in the drafting process? How does the design and timing of consultations shape constitutional text? How can we validate the accuracy of topic matching to consultation corpora?"
-  },
-  {
-    "objectID": "consultation_analysis.html#publications",
-    "href": "consultation_analysis.html#publications",
-    "title": "Consultation Analysis",
-    "section": "Publications",
-    "text": "Publications\nMeasuring Constitutional Preferences: A New Method for Analyzing Public Consultation Data\nPublic consultation has become an indispensable part of constitutional design, yet the voluminous, narrative data produced are often impractical to analyze. There are also few, if any, standards for such analysis. Using a comprehensive reference ontology from the Comparative Constitutions Project (CCP), we develop a new methodology to identify constitutional topics of most concern to citizens and compare these to topics in constitutions globally. We analyze data from Chile’s 2016 public consultations—an ambitious process that produced nearly 265,000 narrative responses and launched the constitutional reform process that remains underway today. We leverage advances in natural language processing, in particular sentence-level semantic similarity technology, to classify consultation responses with respect to constitutional topics. Our methodology has potential for advocates, drafters, and researchers seeking to analyze public consultation data that too often go unexamined. View the article and replication data."
-  },
-  {
-    "objectID": "consultation_analysis.html#papers",
-    "href": "consultation_analysis.html#papers",
-    "title": "Consultation Analysis",
-    "section": "Papers",
-    "text": "Papers\nTracing the Expression and Uptake of Constitutional Ideas across Three Reform Efforts in Chile\nConstitution-making is arguably one of the most important moments for articulating a country’s social and political vision. And yet, there is little comparative, empirical research tracing the development of this vision across an entire constitution-making process. Three recent constitutional reform efforts in Chile offer an unparalleled opportunity to examine the impacts of varied approaches to public consultation and constitution drafting on the expression and uptake of constitutional ideas. Prior analysis of these consultations (Fierro et al. 2017; Ureta et al. 2021; Raveau et al. 2022) and drafting processes (Escudero 2021; Piscopo and Siavelis 2021) has been notable but limited, due in part to the challenges of analyzing voluminous textual data produced by such legal processes. Natural language processing offers a systematic approach to analyzing the topics raised in such legal processes, allowing us to trace the uptake and evolution of constitutional ideas across Chile’s historic constituent process.\nUsing a comprehensive set of constitutional topics and new concept processing tools, this paper compares topics raised in public consultations, drafting deliberations, and constitution drafts in Chile’s constituent process over the last decade. To do so, we compile qualitative public input, transcribe drafting body deliberations, and process constitution drafts from all three recent drafting processes in Chile: the process conducted by then-President Michelle Bachelet from 2016-17, the Constitutional Convention process from 2021-22, and the Expert Commission and Constitutional Council process conducted in 2023. We assess which topics were of most interest to Chileans in each phase, whether drafters leveraged public input rhetorically or substantively, and whether the design of consultations and drafting bodies shaped the resulting constitutional texts. This informs our understanding of the Chilean process and gleans lessons for constitution making more broadly."
-  },
-  {
-    "objectID": "consultation_analysis.html#tools",
-    "href": "consultation_analysis.html#tools",
-    "title": "Consultation Analysis",
-    "section": "Tools",
-    "text": "Tools\nTranscription Review Tool\nThis tool allows users to upload sets of audio or video files, group them (e.g., by the names of legislative committees), and generate transcriptions of the files. The user can then select a specific file, view its audio/video file and transcription in the same screen, and watch/listen to the file synchronized with the transcription to annotate speaker names and make other edits to the transcription. We are currently using this tool in our work and preparing it for public release in the next year."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Concept Integration in Comparative Law",
-    "section": "",
-    "text": "Concepts are at the core of scientific inquiry. In some fields, systematizing and organizing concepts has been a central concern, and has even led to high levels of consensus on categories and labels. The Linnaean taxonomy in biology and the Diagnostic and Statistical Manual in Psychiatry are two well-known examples. In other fields, such as law and political science, concepts are less regulated.\nUncoordinated proliferation of conceptual frameworks in comparative law constrains systematic comparison and alignment of findings across studies, and in turn constrains the accumulation of knowledge. Fifty years ago, Giovanni Sartori and others—concerned about just such a “Tower of Babel” problem in political science—spearheaded a movement towards a more self-conscious use of concepts. Like Sartori, we recognize the personal and collective benefits of analyzing concepts and associating them with empirical phenomena. We also perceive an opportunity to use technology to advance this work.\nNatural language processing (NLP) can accelerate a more systematic approach to the representation of concepts in comparative law. We are developing concept-processing tools that measure the semantic similarity of sentence-level text segments, with no preprocessing of text. These allow us to analyze the large volumes of text generated from legal processes like constitutional design, public consultation, and court rulings—all critically important processes with products that have historically been too unwieldy to analyze in a broadly comparative way.\nOur digital tools facilitate the systematic comparison, integration, and application of concepts across comparative law. We seek to use them to improve constitutional design by organizing and enriching the historical and cross-national information available to constitution drafters and analysts. But they are applicable across the constitutional domain and beyond.\nFunding acknowledgment: This material is based upon work supported by the National Science Foundation under Grant Number 2315189. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation (NSF). We deeply appreciate NSF’s Accountable Institutions and Behavior program and Human Networks and Data Science program for this support."
-  },
-  {
-    "objectID": "gardner.html",
-    "href": "gardner.html",
-    "title": "Concept Integration Lab",
-    "section": "",
-    "text": "Roy Gardner\nRoy Gardner is a data scientist focused on natural language processing, networks, and machine learning. He is a researcher for the Comparative Constitutions Project (CCP) and a PeaceTech researcher at the PeaceRep consortium led by the University of Edinburgh Law School. He is a senior partner in the consultancy Ontonomic.\nPreviously, he worked at Sony and the BBC before founding a digital services company with a portfolio of international clients. He led projects for many clients including CCP (the Constitute project), Google, the Open University, and Oxford University Press.\nHe has a BSc in Experimental Psychology and a PhD in Neuroscience. His post-doctoral work on algorithms for automatic speech recognition and experimental studies of human speech perception was funded by the UK Engineering and Physical Sciences Research Council and the UK Medical Research Council."
-  },
-  {
-    "objectID": "ontology_repository.html",
-    "href": "ontology_repository.html",
-    "title": "Concept Repository",
-    "section": "",
-    "text": "We are creating a public repository for concepts in comparative law to collect concepts in the field and provide a foundation for concept integration. Hosted here on GitHub, the repository will include topic sets from publishers and cataloguers and related document sets indexed by these topics. It will also include interactive tools we are developing to explore these vocabularies and documents.\nThe repository will be a resource for scholars to explore concepts related to their own, compare how varied researchers have conceptualized similar topics, build new vocabularies around specific topics, and find these topics in related constitutional, consultation, and court documents.\nIf you have topic sets, corpora, or data in comparative law that could be a good fit for this concept repository, please contact Zachary Elkins, Roy Gardner, and Ashley Moran. We look forward to talking with you and learning about your work!"
-  },
-  {
-    "objectID": "ontology_repository.html#demos",
-    "href": "ontology_repository.html#demos",
-    "title": "Concept Repository",
-    "section": "Demos",
-    "text": "Demos\nSartori Lite\nThis demo allows users to compare any input concept against the CCP ontology using semantic similarity. Everything happens in-browser thanks to the USE4 Lite model from TensorFlow.js. We plan to add additional topic sets, functionality, and tools as we expand the platform. In the meantime, you can search for similar concepts in the CCP ontology on our demo Sartori Lite."
-  },
-  {
-    "objectID": "ontology_repository.html#documentation",
-    "href": "ontology_repository.html#documentation",
-    "title": "Concept Repository",
-    "section": "Documentation",
-    "text": "Documentation\nAPI Backend\nThis documentation describes the prototype of the REST Application Programming Interface (API) that will serve as a backend for our public-facing concept repository and interactive tools. It will be hosted on a University of Texas server and will execute computationally demanding tasks in our online tools. These tasks include representing user-provided texts as embeddings, computing semantic similarity, creating clusters of user-provided texts, and querying corpora for top matches. To achieve scalability and efficiency, the API uses the FastAPI toolkit and leverages k-nearest neighbors (k-NN) indexing via the nmslib library. In the current implementation, most tasks can be performed in a fraction of a second. View our API documentation."
-  },
-  {
-    "objectID": "research_design.html",
-    "href": "research_design.html",
-    "title": "Research Design",
-    "section": "",
-    "text": "We have developed a novel set of concept-processing tools that form the basis of our research design to enrich our CCP ontology and apply it to new research frontiers. Text comparison poses formidable challenges for human experts, as an exhaustive comparison of just two 1,000-topic texts requires one million operations. NLP tools can automate part of this task, calculating similarities between text at various levels—words, sentences, and documents."
-  },
-  {
-    "objectID": "research_design.html#methodology",
-    "href": "research_design.html#methodology",
-    "title": "Research Design",
-    "section": "Methodology",
-    "text": "Methodology\nThe NLP methods we use—those within vector semantics—assess the similarity of meaning regardless of word choice and order, out-performing other NLP tools in sentence-level semantic tasks. Specifically, we use version 4 of Google’s Universal Sentence Encoder (USE) model and version 3 of the multilingual USE model to support our work in ontology enrichment and concept integration. Over the last 10 years, we have experimented with other NLP methods, but in our view, vector semantics shows the most promise.\nWe are using these tools to: (1) refine the Comparative Constitutions Project (CCP) ontology for use with NLP tools and integrate multiple conceptual frameworks from comparative law to provide broader topic coverage, (2) use the new CCP ontology to provide section-level topic coverage of national constitutions globally, (3) link constitutional content to public consultation input to assess the prevalence, evolution, and uptake of constitutional ideas raised by citizens, and (4) link constitutional content to court rulings to assess the prevalence, evolution, and extension of constitutional ideas brought to courts around the world."
-  },
-  {
-    "objectID": "research_design.html#research-products",
-    "href": "research_design.html#research-products",
-    "title": "Research Design",
-    "section": "Research Products",
-    "text": "Research Products\nOur methods translate to a series of research products we use in our own work but also intend to be useful to other researchers working in the legal domain. These include: (1) an expanded CCP ontology, optimized for use with NLP tools and expanded to provide broader topic coverage, (2) comprehensive constitutional analysis of topics raised in national constitutions worldwide, (3) new methods for consultation analysis to discover and trace ideas raised in public input during consultations on constitutional issues, (4) new methods for conducting systematic court ruling analysis, revealing which constitutional ideas gain traction and how they evolve after a constitution’s adoption, (5) a public ontology repository where scholars can share, explore, and integrate concepts across the field of comparative law, and (6) interactive tools to explore ontologies and corpora using our methodology."
-  },
-  {
-    "objectID": "research_design.html#research-contributions",
-    "href": "research_design.html#research-contributions",
-    "title": "Research Design",
-    "section": "Research Contributions",
-    "text": "Research Contributions\nWe aim to make several methodological, ontological, and substantive contributions to the field of comparative law. On the methodological side, we are developing multilingual concept processing tools that compare and integrate concepts and ontologies in comparative law. On the ontological side, we are developing a replicable process for optimizing the performance of ontologies in semantic-similarity applications, refining and expanding our CCP ontology, and creating a public repository for ontologies in comparative law. On the substantive side, we are identifying geographic and temporal patterns in the constitutional ideas entrenched in constitutions, raised by citizens, and litigated in courts."
-  },
-  {
-    "objectID": "court_analysis.html",
-    "href": "court_analysis.html",
-    "title": "Court Analysis",
-    "section": "",
-    "text": "Studies on court rulings focus largely on one country over time or on a finite set of topics in several countries. Such studies have been key to understanding the legal dynamics of that country or issue set, but they don’t compare all of the issues people bring to courts across many countries. To date, it has been prohibitively complex to study court elaboration of all constitutional topics in a large set of countries.\nOur court project has developed tools to link constitutional content to court rulings to assess court elaboration of the full suite of constitutional topics. We are using these to identify the constitutional topics raised in court rulings in over 100 countries. Our approach takes several steps to:\nThis allows us to answer several research questions related to court rulings, including: Which constitutional ideas are (and are not) brought before the courts? How does this vary across countries and legal systems? How does the understanding of these constitutional ideas evolve after judicial review? In Chile, were constitutional reform priorities raised by citizens also litigated in courts or only shared in consultation fora? How can we validate the accuracy of topic matching to court rulings?"
-  },
-  {
-    "objectID": "court_analysis.html#papers",
-    "href": "court_analysis.html#papers",
-    "title": "Court Analysis",
-    "section": "Papers",
-    "text": "Papers\nWhich Constitutional Ideas are Most Litigated in Courts?\nCourts are central to the enforcement and elaboration of constitutions. Nearly 80% of countries today explicitly grant one or more courts the power to interpret the constitution (Elkins and Ginsburg 2022), positioning courts to shape broad swaths of the political and social realm (Stone Sweet 2000; Hirschl 2004). Yet cross-national assessment of such court elaboration has been relatively narrow. Studies of court rulings typically focus on one country over time or on a finite set of topics in several countries. Such studies have been key to understanding the legal dynamics of that country or issue set, but they do not reveal all of the constitutional issues people bring to courts around the world. To date, it has been prohibitively complex to assess the litigation of all constitutional topics in a large set of countries.\nThis paper presents a new approach to assessing the constitutional content of court rulings, identifying the constitutional ideas that are most litigated in courts globally. To do so, we use the Comparative Constitutions Project (CCP) vocabulary that tracks more than 330 topics in national constitutions (Elkins and Ginsburg 2022). We use new multi-lingual, semantic similarity tools to apply these topics to an extensive collection of national court rulings compiled by the European Commission for Democracy through Law (Venice Commission n.d.). This dataset includes nearly 15,000 court rulings from 120 countries in Africa, the Americas, Asia, and Europe since 1803, allowing us to identify the most litigated constitutional topics in a much broader set of courts than has been compared previously. This methodology allows us to trace constitutional content through court rulings over time and across diverse regions of the world, exploring which constitutional topics are and are not litigated in courts and how this varies across countries and legal regimes."
-  },
-  {
     "objectID": "ontology_enrichment.html",
     "href": "ontology_enrichment.html",
     "title": "Ontology Enrichment",
@@ -131,6 +26,20 @@
     "title": "Ontology Enrichment",
     "section": "Documentation",
     "text": "Documentation\nTopic Refinement Process\nThis documentation describes our rationale for refining existing topics in the Comparative Constitutions Project (CCP) ontology. It also describes our initial revisions of the CCP ontology for use with NLP applications, results of those revisions, and ongoing revisions to improve topic matching and classification. View our topic refinement process.\nOntology Enrichment Workflow\nThis documentation describes our workflow for combining automation and human expertise to systematically discover new topics and assess existing topics in an ontology. Topic discovery includes generating new candidate topics, selecting a candidate topic, designing and classifying the topic, assessing if the topic should be accepted or rejected or re-designed, applying a classification, and documenting the decision. Topic assessment includes selecting an existing topic, classifying the topic, assessing if the topic should be maintained or retired or re-designed, and documenting the decision. View our ontology enrichment workflow.\nOntology Enrichment Methodology\nThis documentation describes our methodology for using the project’s ontology enrichment tool to add and revise topics in the CCP ontology. It defines how to select the search parameters, search the CCP ontology to compare a candidate topic to existing CCP topics, search national constitutions to view constitution sections that match the candidate topic, review results and revise the topic formulation to capture appropriate constitutional content, and document these decisions. View our ontology enrichment methodology."
+  },
+  {
+    "objectID": "court_analysis.html",
+    "href": "court_analysis.html",
+    "title": "Court Analysis",
+    "section": "",
+    "text": "Studies on court rulings focus largely on one country over time or on a finite set of topics in several countries. Such studies have been key to understanding the legal dynamics of that country or issue set, but they don’t compare all of the issues people bring to courts across many countries. To date, it has been prohibitively complex to study court elaboration of all constitutional topics in a large set of countries.\nOur court project has developed tools to link constitutional content to court rulings to assess court elaboration of the full suite of constitutional topics. We are using these to identify the constitutional topics raised in court rulings in over 100 countries. Our approach takes several steps to:\nThis allows us to answer several research questions related to court rulings, including: Which constitutional ideas are (and are not) brought before the courts? How does this vary across countries and legal systems? How does the understanding of these constitutional ideas evolve after judicial review? In Chile, were constitutional reform priorities raised by citizens also litigated in courts or only shared in consultation fora? How can we validate the accuracy of topic matching to court rulings?"
+  },
+  {
+    "objectID": "court_analysis.html#papers",
+    "href": "court_analysis.html#papers",
+    "title": "Court Analysis",
+    "section": "Papers",
+    "text": "Papers\nWhich Constitutional Ideas are Most Litigated in Courts?\nCourts are central to the enforcement and elaboration of constitutions. Nearly 80% of countries today explicitly grant one or more courts the power to interpret the constitution (Elkins and Ginsburg 2022), positioning courts to shape broad swaths of the political and social realm (Stone Sweet 2000; Hirschl 2004). Yet cross-national assessment of such court elaboration has been relatively narrow. Studies of court rulings typically focus on one country over time or on a finite set of topics in several countries. Such studies have been key to understanding the legal dynamics of that country or issue set, but they do not reveal all of the constitutional issues people bring to courts around the world. To date, it has been prohibitively complex to assess the litigation of all constitutional topics in a large set of countries.\nThis paper presents a new approach to assessing the constitutional content of court rulings, identifying the constitutional ideas that are most litigated in courts globally. To do so, we use the Comparative Constitutions Project (CCP) vocabulary that tracks more than 330 topics in national constitutions (Elkins and Ginsburg 2022). We use new multi-lingual, semantic similarity tools to apply these topics to an extensive collection of national court rulings compiled by the European Commission for Democracy through Law (Venice Commission n.d.). This dataset includes nearly 15,000 court rulings from 120 countries in Africa, the Americas, Asia, and Europe since 1803, allowing us to identify the most litigated constitutional topics in a much broader set of courts than has been compared previously. This methodology allows us to trace constitutional content through court rulings over time and across diverse regions of the world, exploring which constitutional topics are and are not litigated in courts and how this varies across countries and legal regimes."
   },
   {
     "objectID": "constitutional_analysis.html",
@@ -161,13 +70,6 @@
     "text": "Documentation\nRevised Tagging of Constitutions\nThis documentation describes our rationale for revising CCP tagging of national constitutions. CCP has previously tagged many sections of constitutions at the title level, for example tagging an entire article on the judiciary with a judiciary topic at the article title level since most or all sub-sections in that article relate to the judiciary. While this is intelligible for people using these constitutional tags, it poses challenges for using these tags with NLP tools that require all segments tagged with a topic to provide substantive evidence of that topic. We are thus revising our topic tagging in national constitutions to bring all title-level tags down to the segment level. View our revised tagging of constitutions."
   },
   {
-    "objectID": "collaboration.html",
-    "href": "collaboration.html",
-    "title": "Collaboration",
-    "section": "",
-    "text": "The heart of this research effort, as with all scientific pursuits, is the advancement of our collective understanding of the world. Perhaps more than our usual research efforts, though, this project is inspired by and hinges on the integration of research and ideas across research communities. Collaboration is thus a central focus of our work.\nThe project will hold periodic meetings of comparative law scholars and taxonomists to foster conceptual integration. The meetings will likely be hybrid meetings, with in-person and virtual participation options. We invite participants from diverse regions and fields who produce or classify data in many areas of comparative law.\nThese collaborative meetings will allow participants to present datasets and accompanying ontologies, discuss best practices related to ontologies, build working relationships, and collaborate on conceptual integration. The meetings will also serve as a way to vet initial inputs into our planned ontology repository.\nIf you have data, ontologies, or corpora in comparative law that could be a good fit, please contact Zachary Elkins, Roy Gardner, and Ashley Moran. We look forward to talking with you and learning about your work!"
-  },
-  {
     "objectID": "team.html",
     "href": "team.html",
     "title": "Team",
@@ -187,5 +89,103 @@
     "title": "Team",
     "section": "Senior Research Analysts",
     "text": "Senior Research Analysts\n Andrés Cruz Andrés Cruz is a PhD student in the Department of Government and an MS student in the Department of Statistics and Data Sciences at the University of Texas at Austin. He studies political methodology with applications in comparative politics. His research interests include data quality, measurement error, and computational social science. He received a BA and MA in Political Science from Pontificia Universidad Católica de Chile.\n Matthew Martin Matthew Martin is a PhD student in UT Austin’s Department of Government. He studies public law and comparative politics, focusing on public participation in constitution-making, authoritarian regimes, Latin American politics, indigenous constitutionalism, and immigration politics. He has worked with the Comparative Constitutions Project since 2021. Previously, he was a full-time legal assistant in family and humanitarian immigration law. He received a dual-degree BA in Legal Studies and Political Science from the University of Massachusetts at Amherst.\n Guillermo Pérez Guillermo Perez is a Chilean lawyer and a PhD student in UT Austin’s Department of Government. During his career, he has worked as a researcher and lecturer in different think tanks, research centers, and universities in Chile. He has also been actively contributing to the Chilean constitutional reform process, advising members of the Constitutional Convention and the Constitutional Council, and participating in multiple public debates. His research interests are comparative constitutional law, constitutional design, and Latin American politics."
+  },
+  {
+    "objectID": "gardner.html",
+    "href": "gardner.html",
+    "title": "Concept Integration Lab",
+    "section": "",
+    "text": "Roy Gardner\nRoy Gardner is a data scientist focused on natural language processing, networks, and machine learning. He is a researcher for the Comparative Constitutions Project (CCP) and a PeaceTech researcher at the PeaceRep consortium led by the University of Edinburgh Law School. He is a senior partner in the consultancy Ontonomic.\nPreviously, he worked at Sony and the BBC before founding a digital services company with a portfolio of international clients. He led projects for many clients including CCP (the Constitute project), Google, the Open University, and Oxford University Press.\nHe has a BSc in Experimental Psychology and a PhD in Neuroscience. His post-doctoral work on algorithms for automatic speech recognition and experimental studies of human speech perception was funded by the UK Engineering and Physical Sciences Research Council and the UK Medical Research Council."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Concept Integration in Comparative Law",
+    "section": "",
+    "text": "Concepts are at the core of scientific inquiry. In some fields, systematizing and organizing concepts has been a central concern, and has even led to high levels of consensus on categories and labels. The Linnaean taxonomy in biology and the Diagnostic and Statistical Manual in Psychiatry are two well-known examples. In other fields, such as law and political science, concepts are less regulated.\nUncoordinated proliferation of conceptual frameworks in comparative law constrains systematic comparison and alignment of findings across studies, and in turn constrains the accumulation of knowledge. Fifty years ago, Giovanni Sartori and others—concerned about just such a “Tower of Babel” problem in political science—spearheaded a movement towards a more self-conscious use of concepts. Like Sartori, we recognize the personal and collective benefits of analyzing concepts and associating them with empirical phenomena. We also perceive an opportunity to use technology to advance this work.\nNatural language processing (NLP) can accelerate a more systematic approach to the representation of concepts in comparative law. We are developing concept-processing tools that measure the semantic similarity of sentence-level text segments, with no preprocessing of text. These allow us to analyze the large volumes of text generated from legal processes like constitutional design, public consultation, and court rulings—all critically important processes with products that have historically been too unwieldy to analyze in a broadly comparative way.\nOur digital tools facilitate the systematic comparison, integration, and application of concepts across comparative law. We seek to use them to improve constitutional design by organizing and enriching the historical and cross-national information available to constitution drafters and analysts. But they are applicable across the constitutional domain and beyond.\nFunding acknowledgment: This material is based upon work supported by the National Science Foundation under Grant Number 2315189. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation (NSF). We deeply appreciate NSF’s Accountable Institutions and Behavior program and Human Networks and Data Science program for this support."
+  },
+  {
+    "objectID": "ontology_repository.html",
+    "href": "ontology_repository.html",
+    "title": "Concept Repository",
+    "section": "",
+    "text": "We are creating a public repository for concepts in comparative law to collect concepts in the field and provide a foundation for concept integration. Hosted here on GitHub, the repository will include topic sets from publishers and cataloguers and related document sets indexed by these topics. It will also include interactive tools we are developing to explore these vocabularies and documents.\nThe repository will be a resource for scholars to explore concepts related to their own, compare how varied researchers have conceptualized similar topics, build new vocabularies around specific topics, and find these topics in related constitutional, consultation, and court documents.\nIf you have topic sets, corpora, or data in comparative law that could be a good fit for this concept repository, please contact Zachary Elkins, Roy Gardner, and Ashley Moran. We look forward to talking with you and learning about your work!"
+  },
+  {
+    "objectID": "ontology_repository.html#demos",
+    "href": "ontology_repository.html#demos",
+    "title": "Concept Repository",
+    "section": "Demos",
+    "text": "Demos\nSartori Lite\nThis demo allows users to compare any input concept against the CCP ontology using semantic similarity. Everything happens in-browser thanks to the USE4 Lite model from TensorFlow.js. We plan to add additional topic sets, functionality, and tools as we expand the platform. In the meantime, you can search for similar concepts in the CCP ontology on our demo Sartori Lite."
+  },
+  {
+    "objectID": "ontology_repository.html#documentation",
+    "href": "ontology_repository.html#documentation",
+    "title": "Concept Repository",
+    "section": "Documentation",
+    "text": "Documentation\nAPI Backend\nThis documentation describes the prototype of the REST Application Programming Interface (API) that will serve as a backend for our public-facing concept repository and interactive tools. It will be hosted on a University of Texas server and will execute computationally demanding tasks in our online tools. These tasks include representing user-provided texts as embeddings, computing semantic similarity, creating clusters of user-provided texts, and querying corpora for top matches. To achieve scalability and efficiency, the API uses the FastAPI toolkit and leverages k-nearest neighbors (k-NN) indexing via the nmslib library. In the current implementation, most tasks can be performed in a fraction of a second. View our API documentation."
+  },
+  {
+    "objectID": "collaboration.html",
+    "href": "collaboration.html",
+    "title": "Collaboration",
+    "section": "",
+    "text": "The heart of this research effort, as with all scientific pursuits, is the advancement of our collective understanding of the world. Perhaps more than our usual research efforts, though, this project is inspired by and hinges on the integration of research and ideas across research communities. Collaboration is thus a central focus of our work.\nThe project will hold periodic meetings of comparative law scholars and taxonomists to foster conceptual integration. The meetings will likely be hybrid meetings, with in-person and virtual participation options. We invite participants from diverse regions and fields who produce or classify data in many areas of comparative law.\nThese collaborative meetings will allow participants to present datasets and accompanying ontologies, discuss best practices related to ontologies, build working relationships, and collaborate on conceptual integration. The meetings will also serve as a way to vet initial inputs into our planned ontology repository.\nIf you have data, ontologies, or corpora in comparative law that could be a good fit, please contact Zachary Elkins, Roy Gardner, and Ashley Moran. We look forward to talking with you and learning about your work!"
+  },
+  {
+    "objectID": "consultation_analysis.html",
+    "href": "consultation_analysis.html",
+    "title": "Consultation Analysis",
+    "section": "",
+    "text": "Public consultation has become an indispensable part of constitutional design, yet the voluminous narrative data produced are notoriously difficult to analyze. Most recently, the consultation process in Chile produced more than 2.4 million suggestions for constitutional content and nearly 265,000 more comments explaining these. The question guiding such consultations—“Which constitutional topics are of most interest to citizens?”—is intractable without an applicable ontology and a method for analyzing vast volumes of text.\nOur consultation project has developed tools to link constitutional content to public consultation input to assess the prevalence, evolution, and uptake of constitutional ideas raised by citizens. We are currently analyzing the world’s most recent and ambitious consultation effort in Chile. Detailed, systematic analysis of such voluminous public consultation input has been prohibitively complex to date, but our new tools make it possible.\nOur approach takes several steps to assess the constitutional topics raised in Chilean public consultations. This will:\nThis allows us to answer several research questions related to public consultations, namely: Which constitutional topics are raised most often in Chilean public consultations and drafting body deliberations? How do topics raised in Chile compare to those in constitutions globally? Do drafters leverage public input rhetorically or substantively in the drafting process? How does the design and timing of consultations shape constitutional text? How can we validate the accuracy of topic matching to consultation corpora?"
+  },
+  {
+    "objectID": "consultation_analysis.html#publications",
+    "href": "consultation_analysis.html#publications",
+    "title": "Consultation Analysis",
+    "section": "Publications",
+    "text": "Publications\nMeasuring Constitutional Preferences: A New Method for Analyzing Public Consultation Data\nPublic consultation has become an indispensable part of constitutional design, yet the voluminous, narrative data produced are often impractical to analyze. There are also few, if any, standards for such analysis. Using a comprehensive reference ontology from the Comparative Constitutions Project (CCP), we develop a new methodology to identify constitutional topics of most concern to citizens and compare these to topics in constitutions globally. We analyze data from Chile’s 2016 public consultations—an ambitious process that produced nearly 265,000 narrative responses and launched the constitutional reform process that remains underway today. We leverage advances in natural language processing, in particular sentence-level semantic similarity technology, to classify consultation responses with respect to constitutional topics. Our methodology has potential for advocates, drafters, and researchers seeking to analyze public consultation data that too often go unexamined. View the article and replication data."
+  },
+  {
+    "objectID": "consultation_analysis.html#papers",
+    "href": "consultation_analysis.html#papers",
+    "title": "Consultation Analysis",
+    "section": "Papers",
+    "text": "Papers\nTracing the Expression and Uptake of Constitutional Ideas across Three Reform Efforts in Chile\nConstitution-making is arguably one of the most important moments for articulating a country’s social and political vision. And yet, there is little comparative, empirical research tracing the development of this vision across an entire constitution-making process. Three recent constitutional reform efforts in Chile offer an unparalleled opportunity to examine the impacts of varied approaches to public consultation and constitution drafting on the expression and uptake of constitutional ideas. Prior analysis of these consultations (Fierro et al. 2017; Ureta et al. 2021; Raveau et al. 2022) and drafting processes (Escudero 2021; Piscopo and Siavelis 2021) has been notable but limited, due in part to the challenges of analyzing voluminous textual data produced by such legal processes. Natural language processing offers a systematic approach to analyzing the topics raised in such legal processes, allowing us to trace the uptake and evolution of constitutional ideas across Chile’s historic constituent process.\nUsing a comprehensive set of constitutional topics and new concept processing tools, this paper compares topics raised in public consultations, drafting deliberations, and constitution drafts in Chile’s constituent process over the last decade. To do so, we compile qualitative public input, transcribe drafting body deliberations, and process constitution drafts from all three recent drafting processes in Chile: the process conducted by then-President Michelle Bachelet from 2016-17, the Constitutional Convention process from 2021-22, and the Expert Commission and Constitutional Council process conducted in 2023. We assess which topics were of most interest to Chileans in each phase, whether drafters leveraged public input rhetorically or substantively, and whether the design of consultations and drafting bodies shaped the resulting constitutional texts. This informs our understanding of the Chilean process and gleans lessons for constitution making more broadly."
+  },
+  {
+    "objectID": "consultation_analysis.html#tools",
+    "href": "consultation_analysis.html#tools",
+    "title": "Consultation Analysis",
+    "section": "Tools",
+    "text": "Tools\nTranscription Review Tool\nThis tool allows users to upload sets of audio or video files, group them (e.g., by the names of legislative committees), and generate transcriptions of the files. The user can then select a specific file, view its audio/video file and transcription in the same screen, and watch/listen to the file synchronized with the transcription to annotate speaker names and make other edits to the transcription. We are currently using this tool in our work and preparing it for public release in the next year."
+  },
+  {
+    "objectID": "research_design.html",
+    "href": "research_design.html",
+    "title": "Research Design",
+    "section": "",
+    "text": "We have developed a novel set of concept-processing tools that form the basis of our research design to enrich our CCP ontology and apply it to new research frontiers. Text comparison poses formidable challenges for human experts, as an exhaustive comparison of just two 1,000-topic texts requires one million operations. NLP tools can automate part of this task, calculating similarities between text at various levels—words, sentences, and documents."
+  },
+  {
+    "objectID": "research_design.html#methodology",
+    "href": "research_design.html#methodology",
+    "title": "Research Design",
+    "section": "Methodology",
+    "text": "Methodology\nThe NLP methods we use—those within vector semantics—assess the similarity of meaning regardless of word choice and order, out-performing other NLP tools in sentence-level semantic tasks. Specifically, we use version 4 of Google’s Universal Sentence Encoder (USE) model and version 3 of the multilingual USE model to support our work in ontology enrichment and concept integration. Over the last 10 years, we have experimented with other NLP methods, but in our view, vector semantics shows the most promise.\nWe are using these tools to: (1) refine the Comparative Constitutions Project (CCP) ontology for use with NLP tools and integrate multiple conceptual frameworks from comparative law to provide broader topic coverage, (2) use the new CCP ontology to provide section-level topic coverage of national constitutions globally, (3) link constitutional content to public consultation input to assess the prevalence, evolution, and uptake of constitutional ideas raised by citizens, and (4) link constitutional content to court rulings to assess the prevalence, evolution, and extension of constitutional ideas brought to courts around the world."
+  },
+  {
+    "objectID": "research_design.html#research-products",
+    "href": "research_design.html#research-products",
+    "title": "Research Design",
+    "section": "Research Products",
+    "text": "Research Products\nOur methods translate to a series of research products we use in our own work but also intend to be useful to other researchers working in the legal domain. These include: (1) an expanded CCP ontology, optimized for use with NLP tools and expanded to provide broader topic coverage, (2) comprehensive constitutional analysis of topics raised in national constitutions worldwide, (3) new methods for consultation analysis to discover and trace ideas raised in public input during consultations on constitutional issues, (4) new methods for conducting systematic court ruling analysis, revealing which constitutional ideas gain traction and how they evolve after a constitution’s adoption, (5) a public ontology repository where scholars can share, explore, and integrate concepts across the field of comparative law, and (6) interactive tools to explore ontologies and corpora using our methodology."
+  },
+  {
+    "objectID": "research_design.html#research-contributions",
+    "href": "research_design.html#research-contributions",
+    "title": "Research Design",
+    "section": "Research Contributions",
+    "text": "Research Contributions\nWe aim to make several methodological, ontological, and substantive contributions to the field of comparative law. On the methodological side, we are developing multilingual concept processing tools that compare and integrate concepts and ontologies in comparative law. On the ontological side, we are developing a replicable process for optimizing the performance of ontologies in semantic-similarity applications, refining and expanding our CCP ontology, and creating a public repository for ontologies in comparative law. On the substantive side, we are identifying geographic and temporal patterns in the constitutional ideas entrenched in constitutions, raised by citizens, and litigated in courts."
   }
 ]
